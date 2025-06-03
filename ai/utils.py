@@ -83,6 +83,7 @@ def merge_frames_with_audio(audio_path, fps=25):
 
 
 def get_video_duration(video_path):
+    print(cv2.__version__)
     cap = cv2.VideoCapture(video_path)
     fps = cap.get(cv2.CAP_PROP_FPS)
     frame_count = int(cap.get(cv2.CAP_PROP_FRAME_COUNT))
