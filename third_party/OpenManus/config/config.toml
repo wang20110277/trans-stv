@@ -1,10 +1,18 @@
 # Global LLM configuration
 
-# [llm.vision] #OLLAMA VISION:
-api_type = 'deepseek'
-model = "deepseek-r1:14b"
-base_url = "http://localhost:11434"
-api_key = "deepseek"
+[llm]
+api_type = 'ollama'
+model = "qwen2.5-coder:14b"
+base_url = "http://localhost:11434/v1"
+api_key = "qwen2.5-coder"
+max_tokens = 8192
+temperature = 0.0
+
+[llm.vision]
+api_type = 'ollama'
+model = "llava"
+base_url = "http://localhost:11434/v1"
+api_key = "llava"
 max_tokens = 4096
 temperature = 0.0
 

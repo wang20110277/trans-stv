@@ -76,6 +76,7 @@ Robot 负责高效的任务管理与记忆管理，能够智能地处理用户�
 
     ```bash
     pip install -r requirements.txt
+    pip install -r third_party/OpenManus/requirements.txt 
     conda install ffmpeg
     ```
 
