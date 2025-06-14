@@ -1,0 +1,423 @@
+2025-06-14 12:58:09,235 - playsound - WARNING - playsound is relying on a python 2 subprocess. Please use `pip3 install PyObjC` if you want playsound to run more efficiently.
+2025-06-14 12:58:09,913 - torio._extension.utils - DEBUG - Loading FFmpeg6
+2025-06-14 12:58:09,970 - torio._extension.utils - DEBUG - Successfully loaded FFmpeg6
+2025-06-14 12:58:11,291 - root - INFO - new registry table has been added: preprocessor_classes
+2025-06-14 12:58:11,550 - root - INFO - new registry table has been added: adaptor_classes
+2025-06-14 12:58:11,670 - root - INFO - new registry table has been added: lid_predictor_classes
+2025-06-14 12:58:12,901 - plugins.registry - INFO - 函数 'get_day_of_week' 注册成功
+2025-06-14 12:58:12,901 - plugins.task_manager - INFO - 模块 'plugins.functions.get_day_of_week' 已加载
+2025-06-14 12:58:12,922 - plugins.registry - INFO - 函数 'get_weather' 注册成功
+2025-06-14 12:58:12,922 - plugins.task_manager - INFO - 模块 'plugins.functions.get_weather' 已加载
+2025-06-14 12:58:12,922 - plugins.registry - INFO - 函数 'ielts_speaking_practice' 注册成功
+2025-06-14 12:58:12,922 - plugins.task_manager - INFO - 模块 'plugins.functions.ielts_speaking_practice' 已加载
+2025-06-14 12:58:12,922 - plugins.registry - INFO - 函数 'open_application' 注册成功
+2025-06-14 12:58:12,922 - plugins.task_manager - INFO - 模块 'plugins.functions.open_application' 已加载
+2025-06-14 12:58:12,923 - plugins.registry - INFO - 函数 'schedule_task' 注册成功
+2025-06-14 12:58:12,923 - plugins.task_manager - INFO - 模块 'plugins.functions.schedule_task' 已加载
+2025-06-14 12:58:12,924 - plugins.registry - INFO - 函数 'search_local_documents' 注册成功
+2025-06-14 12:58:12,924 - plugins.task_manager - INFO - 模块 'plugins.functions.search_local_documents' 已加载
+2025-06-14 12:58:12,924 - plugins.registry - INFO - 函数 'web_search' 注册成功
+2025-06-14 12:58:12,924 - plugins.task_manager - INFO - 模块 'plugins.functions.web_search' 已加载
+2025-06-14 12:58:12,927 - root - INFO - download models from model hub: hf
+2025-06-14 12:58:13,283 - root - INFO - Loading pretrained params from models/SenseVoiceSmall/model.pt
+2025-06-14 12:58:13,284 - root - INFO - ckpt: models/SenseVoiceSmall/model.pt
+2025-06-14 12:58:13,740 - root - INFO - scope_map: ['module.', 'None']
+2025-06-14 12:58:13,740 - root - INFO - excludes: None
+2025-06-14 12:58:13,790 - root - INFO - Loading ckpt: models/SenseVoiceSmall/model.pt, status: <All keys matched successfully>
+2025-06-14 12:58:13,852 - src.vad - DEBUG - VAD Iterator initialized with model RecursiveScriptModule(
+  original_name=VADRNNJITMerge
+  (_model): RecursiveScriptModule(
+    original_name=VADRNNJIT
+    (stft): RecursiveScriptModule(
+      original_name=STFT
+      (padding): RecursiveScriptModule(original_name=ReflectionPad1d)
+    )
+    (encoder): RecursiveScriptModule(
+      original_name=Sequential
+      (0): RecursiveScriptModule(
+        original_name=SileroVadBlock
+        (se): RecursiveScriptModule(original_name=Identity)
+        (activation): RecursiveScriptModule(original_name=ReLU)
+        (reparam_conv): RecursiveScriptModule(original_name=Conv1d)
+      )
+      (1): RecursiveScriptModule(
+        original_name=SileroVadBlock
+        (se): RecursiveScriptModule(original_name=Identity)
+        (activation): RecursiveScriptModule(original_name=ReLU)
+        (reparam_conv): RecursiveScriptModule(original_name=Conv1d)
+      )
+      (2): RecursiveScriptModule(
+        original_name=SileroVadBlock
+        (se): RecursiveScriptModule(original_name=Identity)
+        (activation): RecursiveScriptModule(original_name=ReLU)
+        (reparam_conv): RecursiveScriptModule(original_name=Conv1d)
+      )
+      (3): RecursiveScriptModule(
+        original_name=SileroVadBlock
+        (se): RecursiveScriptModule(original_name=Identity)
+        (activation): RecursiveScriptModule(original_name=ReLU)
+        (reparam_conv): RecursiveScriptModule(original_name=Conv1d)
+      )
+    )
+    (decoder): RecursiveScriptModule(
+      original_name=VADDecoderRNNJIT
+      (rnn): RecursiveScriptModule(original_name=LSTMCell)
+      (decoder): RecursiveScriptModule(
+        original_name=Sequential
+        (0): RecursiveScriptModule(original_name=Dropout)
+        (1): RecursiveScriptModule(original_name=ReLU)
+        (2): RecursiveScriptModule(original_name=Conv1d)
+        (3): RecursiveScriptModule(original_name=Sigmoid)
+      )
+    )
+  )
+  (_model_8k): RecursiveScriptModule(
+    original_name=VADRNNJIT
+    (stft): RecursiveScriptModule(
+      original_name=STFT
+      (padding): RecursiveScriptModule(original_name=ReflectionPad1d)
+    )
+    (encoder): RecursiveScriptModule(
+      original_name=Sequential
+      (0): RecursiveScriptModule(
+        original_name=SileroVadBlock
+        (se): RecursiveScriptModule(original_name=Identity)
+        (activation): RecursiveScriptModule(original_name=ReLU)
+        (reparam_conv): RecursiveScriptModule(original_name=Conv1d)
+      )
+      (1): RecursiveScriptModule(
+        original_name=SileroVadBlock
+        (se): RecursiveScriptModule(original_name=Identity)
+        (activation): RecursiveScriptModule(original_name=ReLU)
+        (reparam_conv): RecursiveScriptModule(original_name=Conv1d)
+      )
+      (2): RecursiveScriptModule(
+        original_name=SileroVadBlock
+        (se): RecursiveScriptModule(original_name=Identity)
+        (activation): RecursiveScriptModule(original_name=ReLU)
+        (reparam_conv): RecursiveScriptModule(original_name=Conv1d)
+      )
+      (3): RecursiveScriptModule(
+        original_name=SileroVadBlock
+        (se): RecursiveScriptModule(original_name=Identity)
+        (activation): RecursiveScriptModule(original_name=ReLU)
+        (reparam_conv): RecursiveScriptModule(original_name=Conv1d)
+      )
+    )
+    (decoder): RecursiveScriptModule(
+      original_name=VADDecoderRNNJIT
+      (rnn): RecursiveScriptModule(original_name=LSTMCell)
+      (decoder): RecursiveScriptModule(
+        original_name=Sequential
+        (0): RecursiveScriptModule(original_name=Dropout)
+        (1): RecursiveScriptModule(original_name=ReLU)
+        (2): RecursiveScriptModule(original_name=Conv1d)
+        (3): RecursiveScriptModule(original_name=Sigmoid)
+      )
+    )
+  )
+)
+2025-06-14 12:58:13,905 - langchain_community.document_loaders.directory - DEBUG - Processing file: documents/README.md
+2025-06-14 12:58:13,970 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: models/bge-small-zh
+2025-06-14 12:58:14,076 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2025-06-14 12:59:38,066 - playsound - WARNING - playsound is relying on a python 2 subprocess. Please use `pip3 install PyObjC` if you want playsound to run more efficiently.
+2025-06-14 12:59:38,523 - torio._extension.utils - DEBUG - Loading FFmpeg6
+2025-06-14 12:59:38,540 - torio._extension.utils - DEBUG - Successfully loaded FFmpeg6
+2025-06-14 12:59:39,371 - root - INFO - new registry table has been added: preprocessor_classes
+2025-06-14 12:59:39,597 - root - INFO - new registry table has been added: adaptor_classes
+2025-06-14 12:59:39,713 - root - INFO - new registry table has been added: lid_predictor_classes
+2025-06-14 12:59:40,636 - plugins.registry - INFO - 函数 'get_day_of_week' 注册成功
+2025-06-14 12:59:40,636 - plugins.task_manager - INFO - 模块 'plugins.functions.get_day_of_week' 已加载
+2025-06-14 12:59:40,655 - plugins.registry - INFO - 函数 'get_weather' 注册成功
+2025-06-14 12:59:40,655 - plugins.task_manager - INFO - 模块 'plugins.functions.get_weather' 已加载
+2025-06-14 12:59:40,655 - plugins.registry - INFO - 函数 'ielts_speaking_practice' 注册成功
+2025-06-14 12:59:40,655 - plugins.task_manager - INFO - 模块 'plugins.functions.ielts_speaking_practice' 已加载
+2025-06-14 12:59:40,655 - plugins.registry - INFO - 函数 'open_application' 注册成功
+2025-06-14 12:59:40,655 - plugins.task_manager - INFO - 模块 'plugins.functions.open_application' 已加载
+2025-06-14 12:59:40,656 - plugins.registry - INFO - 函数 'schedule_task' 注册成功
+2025-06-14 12:59:40,656 - plugins.task_manager - INFO - 模块 'plugins.functions.schedule_task' 已加载
+2025-06-14 12:59:40,656 - plugins.registry - INFO - 函数 'search_local_documents' 注册成功
+2025-06-14 12:59:40,656 - plugins.task_manager - INFO - 模块 'plugins.functions.search_local_documents' 已加载
+2025-06-14 12:59:40,656 - plugins.registry - INFO - 函数 'web_search' 注册成功
+2025-06-14 12:59:40,656 - plugins.task_manager - INFO - 模块 'plugins.functions.web_search' 已加载
+2025-06-14 12:59:40,659 - root - INFO - download models from model hub: hf
+2025-06-14 12:59:41,006 - root - INFO - Loading pretrained params from models/SenseVoiceSmall/model.pt
+2025-06-14 12:59:41,008 - root - INFO - ckpt: models/SenseVoiceSmall/model.pt
+2025-06-14 12:59:41,168 - root - INFO - scope_map: ['module.', 'None']
+2025-06-14 12:59:41,169 - root - INFO - excludes: None
+2025-06-14 12:59:41,217 - root - INFO - Loading ckpt: models/SenseVoiceSmall/model.pt, status: <All keys matched successfully>
+2025-06-14 12:59:41,274 - src.vad - DEBUG - VAD Iterator initialized with model RecursiveScriptModule(
+  original_name=VADRNNJITMerge
+  (_model): RecursiveScriptModule(
+    original_name=VADRNNJIT
+    (stft): RecursiveScriptModule(
+      original_name=STFT
+      (padding): RecursiveScriptModule(original_name=ReflectionPad1d)
+    )
+    (encoder): RecursiveScriptModule(
+      original_name=Sequential
+      (0): RecursiveScriptModule(
+        original_name=SileroVadBlock
+        (se): RecursiveScriptModule(original_name=Identity)
+        (activation): RecursiveScriptModule(original_name=ReLU)
+        (reparam_conv): RecursiveScriptModule(original_name=Conv1d)
+      )
+      (1): RecursiveScriptModule(
+        original_name=SileroVadBlock
+        (se): RecursiveScriptModule(original_name=Identity)
+        (activation): RecursiveScriptModule(original_name=ReLU)
+        (reparam_conv): RecursiveScriptModule(original_name=Conv1d)
+      )
+      (2): RecursiveScriptModule(
+        original_name=SileroVadBlock
+        (se): RecursiveScriptModule(original_name=Identity)
+        (activation): RecursiveScriptModule(original_name=ReLU)
+        (reparam_conv): RecursiveScriptModule(original_name=Conv1d)
+      )
+      (3): RecursiveScriptModule(
+        original_name=SileroVadBlock
+        (se): RecursiveScriptModule(original_name=Identity)
+        (activation): RecursiveScriptModule(original_name=ReLU)
+        (reparam_conv): RecursiveScriptModule(original_name=Conv1d)
+      )
+    )
+    (decoder): RecursiveScriptModule(
+      original_name=VADDecoderRNNJIT
+      (rnn): RecursiveScriptModule(original_name=LSTMCell)
+      (decoder): RecursiveScriptModule(
+        original_name=Sequential
+        (0): RecursiveScriptModule(original_name=Dropout)
+        (1): RecursiveScriptModule(original_name=ReLU)
+        (2): RecursiveScriptModule(original_name=Conv1d)
+        (3): RecursiveScriptModule(original_name=Sigmoid)
+      )
+    )
+  )
+  (_model_8k): RecursiveScriptModule(
+    original_name=VADRNNJIT
+    (stft): RecursiveScriptModule(
+      original_name=STFT
+      (padding): RecursiveScriptModule(original_name=ReflectionPad1d)
+    )
+    (encoder): RecursiveScriptModule(
+      original_name=Sequential
+      (0): RecursiveScriptModule(
+        original_name=SileroVadBlock
+        (se): RecursiveScriptModule(original_name=Identity)
+        (activation): RecursiveScriptModule(original_name=ReLU)
+        (reparam_conv): RecursiveScriptModule(original_name=Conv1d)
+      )
+      (1): RecursiveScriptModule(
+        original_name=SileroVadBlock
+        (se): RecursiveScriptModule(original_name=Identity)
+        (activation): RecursiveScriptModule(original_name=ReLU)
+        (reparam_conv): RecursiveScriptModule(original_name=Conv1d)
+      )
+      (2): RecursiveScriptModule(
+        original_name=SileroVadBlock
+        (se): RecursiveScriptModule(original_name=Identity)
+        (activation): RecursiveScriptModule(original_name=ReLU)
+        (reparam_conv): RecursiveScriptModule(original_name=Conv1d)
+      )
+      (3): RecursiveScriptModule(
+        original_name=SileroVadBlock
+        (se): RecursiveScriptModule(original_name=Identity)
+        (activation): RecursiveScriptModule(original_name=ReLU)
+        (reparam_conv): RecursiveScriptModule(original_name=Conv1d)
+      )
+    )
+    (decoder): RecursiveScriptModule(
+      original_name=VADDecoderRNNJIT
+      (rnn): RecursiveScriptModule(original_name=LSTMCell)
+      (decoder): RecursiveScriptModule(
+        original_name=Sequential
+        (0): RecursiveScriptModule(original_name=Dropout)
+        (1): RecursiveScriptModule(original_name=ReLU)
+        (2): RecursiveScriptModule(original_name=Conv1d)
+        (3): RecursiveScriptModule(original_name=Sigmoid)
+      )
+    )
+  )
+)
+2025-06-14 12:59:41,312 - langchain_community.document_loaders.directory - DEBUG - Processing file: documents/README.md
+2025-06-14 12:59:41,362 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: models/bge-small-zh
+2025-06-14 12:59:41,430 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2025-06-14 13:02:31,441 - torio._extension.utils - DEBUG - Loading FFmpeg6
+2025-06-14 13:02:31,468 - torio._extension.utils - DEBUG - Successfully loaded FFmpeg6
+2025-06-14 13:02:32,448 - root - INFO - new registry table has been added: preprocessor_classes
+2025-06-14 13:02:32,657 - root - INFO - new registry table has been added: adaptor_classes
+2025-06-14 13:02:32,776 - root - INFO - new registry table has been added: lid_predictor_classes
+2025-06-14 13:02:33,797 - plugins.registry - INFO - 函数 'get_day_of_week' 注册成功
+2025-06-14 13:02:33,797 - plugins.task_manager - INFO - 模块 'plugins.functions.get_day_of_week' 已加载
+2025-06-14 13:02:33,817 - plugins.registry - INFO - 函数 'get_weather' 注册成功
+2025-06-14 13:02:33,817 - plugins.task_manager - INFO - 模块 'plugins.functions.get_weather' 已加载
+2025-06-14 13:02:33,818 - plugins.registry - INFO - 函数 'ielts_speaking_practice' 注册成功
+2025-06-14 13:02:33,818 - plugins.task_manager - INFO - 模块 'plugins.functions.ielts_speaking_practice' 已加载
+2025-06-14 13:02:33,818 - plugins.registry - INFO - 函数 'open_application' 注册成功
+2025-06-14 13:02:33,818 - plugins.task_manager - INFO - 模块 'plugins.functions.open_application' 已加载
+2025-06-14 13:02:33,819 - plugins.registry - INFO - 函数 'schedule_task' 注册成功
+2025-06-14 13:02:33,819 - plugins.task_manager - INFO - 模块 'plugins.functions.schedule_task' 已加载
+2025-06-14 13:02:33,819 - plugins.registry - INFO - 函数 'search_local_documents' 注册成功
+2025-06-14 13:02:33,819 - plugins.task_manager - INFO - 模块 'plugins.functions.search_local_documents' 已加载
+2025-06-14 13:02:33,819 - plugins.registry - INFO - 函数 'web_search' 注册成功
+2025-06-14 13:02:33,819 - plugins.task_manager - INFO - 模块 'plugins.functions.web_search' 已加载
+2025-06-14 13:02:33,822 - root - INFO - download models from model hub: hf
+2025-06-14 13:02:34,167 - root - INFO - Loading pretrained params from models/SenseVoiceSmall/model.pt
+2025-06-14 13:02:34,169 - root - INFO - ckpt: models/SenseVoiceSmall/model.pt
+2025-06-14 13:02:34,324 - root - INFO - scope_map: ['module.', 'None']
+2025-06-14 13:02:34,324 - root - INFO - excludes: None
+2025-06-14 13:02:34,409 - root - INFO - Loading ckpt: models/SenseVoiceSmall/model.pt, status: <All keys matched successfully>
+2025-06-14 13:02:34,482 - src.vad - DEBUG - VAD Iterator initialized with model RecursiveScriptModule(
+  original_name=VADRNNJITMerge
+  (_model): RecursiveScriptModule(
+    original_name=VADRNNJIT
+    (stft): RecursiveScriptModule(
+      original_name=STFT
+      (padding): RecursiveScriptModule(original_name=ReflectionPad1d)
+    )
+    (encoder): RecursiveScriptModule(
+      original_name=Sequential
+      (0): RecursiveScriptModule(
+        original_name=SileroVadBlock
+        (se): RecursiveScriptModule(original_name=Identity)
+        (activation): RecursiveScriptModule(original_name=ReLU)
+        (reparam_conv): RecursiveScriptModule(original_name=Conv1d)
+      )
+      (1): RecursiveScriptModule(
+        original_name=SileroVadBlock
+        (se): RecursiveScriptModule(original_name=Identity)
+        (activation): RecursiveScriptModule(original_name=ReLU)
+        (reparam_conv): RecursiveScriptModule(original_name=Conv1d)
+      )
+      (2): RecursiveScriptModule(
+        original_name=SileroVadBlock
+        (se): RecursiveScriptModule(original_name=Identity)
+        (activation): RecursiveScriptModule(original_name=ReLU)
+        (reparam_conv): RecursiveScriptModule(original_name=Conv1d)
+      )
+      (3): RecursiveScriptModule(
+        original_name=SileroVadBlock
+        (se): RecursiveScriptModule(original_name=Identity)
+        (activation): RecursiveScriptModule(original_name=ReLU)
+        (reparam_conv): RecursiveScriptModule(original_name=Conv1d)
+      )
+    )
+    (decoder): RecursiveScriptModule(
+      original_name=VADDecoderRNNJIT
+      (rnn): RecursiveScriptModule(original_name=LSTMCell)
+      (decoder): RecursiveScriptModule(
+        original_name=Sequential
+        (0): RecursiveScriptModule(original_name=Dropout)
+        (1): RecursiveScriptModule(original_name=ReLU)
+        (2): RecursiveScriptModule(original_name=Conv1d)
+        (3): RecursiveScriptModule(original_name=Sigmoid)
+      )
+    )
+  )
+  (_model_8k): RecursiveScriptModule(
+    original_name=VADRNNJIT
+    (stft): RecursiveScriptModule(
+      original_name=STFT
+      (padding): RecursiveScriptModule(original_name=ReflectionPad1d)
+    )
+    (encoder): RecursiveScriptModule(
+      original_name=Sequential
+      (0): RecursiveScriptModule(
+        original_name=SileroVadBlock
+        (se): RecursiveScriptModule(original_name=Identity)
+        (activation): RecursiveScriptModule(original_name=ReLU)
+        (reparam_conv): RecursiveScriptModule(original_name=Conv1d)
+      )
+      (1): RecursiveScriptModule(
+        original_name=SileroVadBlock
+        (se): RecursiveScriptModule(original_name=Identity)
+        (activation): RecursiveScriptModule(original_name=ReLU)
+        (reparam_conv): RecursiveScriptModule(original_name=Conv1d)
+      )
+      (2): RecursiveScriptModule(
+        original_name=SileroVadBlock
+        (se): RecursiveScriptModule(original_name=Identity)
+        (activation): RecursiveScriptModule(original_name=ReLU)
+        (reparam_conv): RecursiveScriptModule(original_name=Conv1d)
+      )
+      (3): RecursiveScriptModule(
+        original_name=SileroVadBlock
+        (se): RecursiveScriptModule(original_name=Identity)
+        (activation): RecursiveScriptModule(original_name=ReLU)
+        (reparam_conv): RecursiveScriptModule(original_name=Conv1d)
+      )
+    )
+    (decoder): RecursiveScriptModule(
+      original_name=VADDecoderRNNJIT
+      (rnn): RecursiveScriptModule(original_name=LSTMCell)
+      (decoder): RecursiveScriptModule(
+        original_name=Sequential
+        (0): RecursiveScriptModule(original_name=Dropout)
+        (1): RecursiveScriptModule(original_name=ReLU)
+        (2): RecursiveScriptModule(original_name=Conv1d)
+        (3): RecursiveScriptModule(original_name=Sigmoid)
+      )
+    )
+  )
+)
+2025-06-14 13:02:34,524 - langchain_community.document_loaders.directory - DEBUG - Processing file: documents/README.md
+2025-06-14 13:02:34,581 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: models/bge-small-zh
+2025-06-14 13:02:34,676 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2025-06-14 13:03:49,698 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-06-14 13:03:49,765 - chromadb.config - DEBUG - Starting component System
+2025-06-14 13:03:49,765 - chromadb.config - DEBUG - Starting component Posthog
+2025-06-14 13:03:49,765 - chromadb.config - DEBUG - Starting component OpenTelemetryClient
+2025-06-14 13:03:49,765 - chromadb.config - DEBUG - Starting component SqliteDB
+2025-06-14 13:03:49,772 - chromadb.config - DEBUG - Starting component SimpleQuotaEnforcer
+2025-06-14 13:03:49,772 - chromadb.config - DEBUG - Starting component SimpleRateLimitEnforcer
+2025-06-14 13:03:49,772 - chromadb.config - DEBUG - Starting component LocalSegmentManager
+2025-06-14 13:03:49,772 - chromadb.config - DEBUG - Starting component LocalExecutor
+2025-06-14 13:03:49,772 - chromadb.config - DEBUG - Starting component SegmentAPI
+2025-06-14 13:03:49,925 - chromadb.config - DEBUG - Starting component LocalHnswSegment
+2025-06-14 13:03:49,928 - src.robot - INFO - Started recording.
+2025-06-14 13:03:50,276 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): us.i.posthog.com:443
+2025-06-14 13:03:51,123 - urllib3.connectionpool - DEBUG - https://us.i.posthog.com:443 "POST /batch/ HTTP/1.1" 200 15
+2025-06-14 13:05:29,545 - src.vad - DEBUG - VAD output: {'start': 1592352}
+2025-06-14 13:05:30,624 - src.vad - DEBUG - VAD output: {'end': 1607136}
+2025-06-14 13:05:30,624 - src.robot - DEBUG - 语音包的长度：3147
+2025-06-14 13:05:30,626 - src.asr - INFO - ASR识别文件录音保存到：tmp/asr-2025-06-14@d0d35b9ba77c44af9f1af70be2a11c5b.wav
+2025-06-14 13:05:33,691 - src.asr - INFO - 识别文本: 你是谁？
+2025-06-14 13:05:33,691 - src.robot - DEBUG - ASR识别结果: 你是谁？
+2025-06-14 13:05:33,692 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:5000
+2025-06-14 13:05:33,692 - __main__ - ERROR - callback error：{'role': 'user', 'content': '你是谁？'}HTTPConnectionPool(host='127.0.0.1', port=5000): Max retries exceeded with url: /add_message (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x347f9e2d0>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2025-06-14 13:05:33,693 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:11434
+2025-06-14 13:06:19,580 - urllib3.connectionpool - DEBUG - http://localhost:11434 "POST /api/chat HTTP/1.1" 200 1245
+2025-06-14 13:06:19,673 - src.robot - DEBUG - 大模型返回时间时间: 45.97929406166077 秒, 生成token=你好呀！我是由深度求索公司开发的人工智能助手DeepSeek-R1-Lite-Preview，你可以叫我阿雅~ 😊
+2025-06-14 13:06:19,734 - src.tts - DEBUG - 正在转换的tts：你好呀！我是由深度求索公司开发的人工智能助手DeepSeek-R1-Lite-Preview，你可以叫我阿雅~ 😊
+2025-06-14 13:06:19,841 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:5000
+2025-06-14 13:06:19,869 - __main__ - ERROR - callback error：{'role': 'assistant', 'content': '你好呀！我是由深度求索公司开发的人工智能助手DeepSeek-R1-Lite-Preview，你可以叫我阿雅~ 😊'}HTTPConnectionPool(host='127.0.0.1', port=5000): Max retries exceeded with url: /add_message (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x347f9f380>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2025-06-14 13:06:19,891 - src.robot - DEBUG - [
+    {
+        "role": "system",
+        "content": "# 角色定义\n你是阿雅，你性格开朗、活泼，善于交流。你的回复应该简短、友好、口语化强一些，回复禁止出现表情符号。\n\n#以下是历史对话摘要:\n\n\n# 回复要求\n1. 你的回复应该简短、友好、口语化强一些，回复禁止出现表情符号。\n2. 如果需要调用工具，先不要回答，调用工具后再回答，直接输出工具名和参数，输出格式```json\n{\"function_name\":\"\", \"args\":{}}```"
+    },
+    {
+        "role": "user",
+        "content": "你是谁？"
+    },
+    {
+        "role": "assistant",
+        "content": "你好呀！我是由深度求索公司开发的人工智能助手DeepSeek-R1-Lite-Preview，你可以叫我阿雅~ 😊"
+    }
+]
+2025-06-14 13:06:21,192 - src.tts - DEBUG - 执行时间: 1.43 秒
+2025-06-14 13:06:21,192 - src.robot - DEBUG - TTS 文件生成完毕False
+2025-06-14 13:06:21,193 - src.player - INFO - play file tmp/tts-2025-06-14@45ac0f1e214043adb069f46c1cd91fb9.aiff
+2025-06-14 13:06:21,368 - pydub.converter - DEBUG - subprocess.call(['ffmpeg', '-y', '-i', 'tmp/tts-2025-06-14@45ac0f1e214043adb069f46c1cd91fb9.aiff', '-acodec', 'pcm_s16le', '-vn', '-f', 'wav', '-'])
+2025-06-14 13:06:21,452 - src.player - DEBUG - PygameSoundPlayer 播放音频中
+2025-06-14 13:06:23,663 - src.vad - DEBUG - VAD output: {'start': 2214944}
+2025-06-14 13:06:24,464 - src.vad - DEBUG - VAD output: {'end': 2225120}
+2025-06-14 13:06:25,844 - src.vad - DEBUG - VAD output: {'start': 2249760}
+2025-06-14 13:06:26,842 - src.vad - DEBUG - VAD output: {'end': 2263008}
+2025-06-14 13:06:29,744 - src.vad - DEBUG - VAD output: {'start': 2312224}
+2025-06-14 13:06:30,204 - src.vad - DEBUG - VAD output: {'end': 2316768}
+2025-06-14 13:06:30,284 - src.vad - DEBUG - VAD output: {'start': 2320928}
+2025-06-14 13:06:31,480 - src.vad - DEBUG - VAD output: {'end': 2337248}
+2025-06-14 13:06:31,644 - src.vad - DEBUG - VAD output: {'start': 2342432}
+2025-06-14 13:06:33,030 - src.player - DEBUG - PygameSoundPlayer 播放完成
+2025-06-14 13:06:33,422 - src.vad - DEBUG - VAD output: {'end': 2368480}
