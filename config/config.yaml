@@ -24,16 +24,16 @@ Recorder:
   RecorderPyAudio:
     output_file: tmp/
 
-ASR:
-  FunASR:
-    model_dir: models/SenseVoiceSmall
-    output_file: tmp/
-
 VAD:
   SileroVAD:
     sampling_rate: 16000
     threshold: 0.5
     min_silence_duration_ms: 200  # 如果说话停顿比较长，可以把这个值设置大一些
+
+ASR:
+  FunASR:
+    model_dir: models/SenseVoiceSmall
+    output_file: tmp/
 
 LLM:
   OllamaLLM:

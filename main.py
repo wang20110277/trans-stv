@@ -30,18 +30,18 @@ def push2web(payload):
     except Exception as e:
         logger.error(f"callback error：{payload}{e}")
 
-def main():
-    # Create the parser
-    parser = argparse.ArgumentParser(description="Description of your script.")
+# def main():
+#     # Create the parser
+#     parser = argparse.ArgumentParser(description="Description of your script.")
 
-    # Add arguments
-    parser.add_argument('config_path', type=str, help="配置文件", default=None)
-    # Parse arguments
-    args = parser.parse_args()
-    config_path = args.config_path
-    bailing_robot = robot.Robot(config_path)
-    bailing_robot.listen_dialogue(push2web)
-    bailing_robot.run()
+#     # Add arguments
+#     parser.add_argument('config_path', type=str, help="配置文件", default=None)
+#     # Parse arguments
+#     args = parser.parse_args()
+#     config_path = args.config_path
+#     bailing_robot = robot.Robot(config_path)
+#     bailing_robot.listen_dialogue(push2web)
+#     bailing_robot.run()
 
 
 if __name__ == "__main__":

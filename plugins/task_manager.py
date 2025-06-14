@@ -32,7 +32,7 @@ def auto_import_modules(package_name):
             importlib.import_module(full_module_name)
             logger.info(f"模块 '{full_module_name}' 已加载")
         except Exception as e:
-            logger.error(f"模块 '{full_module_name}' 加载失败")
+            logger.error(f"模块 '{full_module_name}' 加载失败，异常信息: {str(e)}")
 
 # 自动导入 'functions' 包中的所有模块
 auto_import_modules('plugins.functions')

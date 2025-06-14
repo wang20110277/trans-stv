@@ -10,7 +10,7 @@ temperature = 0.0
 
 [llm.vision]
 api_type = 'ollama'
-model = "llava"
+model = "llava:latest"
 base_url = "http://localhost:11434/v1"
 api_key = "llava"
 max_tokens = 4096

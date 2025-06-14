@@ -49,6 +49,11 @@ class Robot(ABC):
             config["Recorder"][config["selected_module"]["Recorder"]]
         )
 
+        self.vad = vad.create_instance(
+            config["selected_module"]["VAD"],
+            config["VAD"][config["selected_module"]["VAD"]]
+        )
+
         self.asr = asr.create_instance(
             config["selected_module"]["ASR"],
             config["ASR"][config["selected_module"]["ASR"]]
@@ -69,11 +74,6 @@ class Robot(ABC):
         #     config["THG"][config["selected_module"]["THG"]]
         # )
 
-        self.vad = vad.create_instance(
-            config["selected_module"]["VAD"],
-            config["VAD"][config["selected_module"]["VAD"]]
-        )
-
         self.player = player.create_instance(
             config["selected_module"]["Player"],
             config["Player"][config["selected_module"]["Player"]]
@@ -86,12 +86,11 @@ class Robot(ABC):
         self.dialogue = Dialogue(config["Memory"]["dialogue_history_path"])
         self.dialogue.put(Message(role="system", content=self.prompt))
 
+        self.vad_start = True
         # 保证tts是顺序的
         self.tts_queue = queue.Queue()
         # 初始化线程池
         self.executor = ThreadPoolExecutor(max_workers=10)
-
-        self.vad_start = True
 
         # 打断相关配置
         self.INTERRUPT = config["interrupt"]
@@ -117,44 +116,6 @@ class Robot(ABC):
     def listen_dialogue(self, callback):
         self.callback = callback
 
-    def _stream_vad(self):
-        def vad_thread():
-            while not self.stop_event.is_set():
-                try:
-                    data = self.audio_queue.get()
-                    vad_statue = self.vad.is_vad(data)
-                    self.vad_queue.put({"voice": data, "vad_statue": vad_statue})
-                except Exception as e:
-                    logger.error(f"VAD 处理出错: {e}")
-        consumer_audio = threading.Thread(target=vad_thread, daemon=True)
-        consumer_audio.start()
-
-    def _tts_priority(self):
-        def priority_thread():
-            while not self.stop_event.is_set():
-                try:
-                    future = self.tts_queue.get()
-                    try:
-                        tts_file = future.result(timeout=1000)
-                    except TimeoutError:
-                        logger.error("TTS 任务超时")
-                        continue
-                    except Exception as e:
-                        logger.error(f"TTS 任务出错: {e}")
-                        continue
-                    if tts_file is None:
-                        continue
-                    self.player.play(tts_file)
-                except Exception as e:
-                    logger.error(f"tts_priority priority_thread: {e}")
-        tts_priority = threading.Thread(target=priority_thread, daemon=True)
-        tts_priority.start()
-
-    def interrupt_playback(self):
-        """中断当前的语音播放"""
-        logger.info("Interrupting current playback.")
-        self.player.stop()
-
     def shutdown(self):
         """关闭所有资源，确保程序安全退出"""
         logger.info("Shutting down Robot...")
@@ -163,98 +124,6 @@ class Robot(ABC):
         self.recorder.stop_recording()
         self.player.shutdown()
         logger.info("Shutdown complete.")
-
-    def start_recording_and_vad(self):
-        # 开始监听语音流
-        self.recorder.start_recording(self.audio_queue)
-        logger.info("Started recording.")
-        # vad 实时识别
-        self._stream_vad()
-        # tts优先级队列
-        self._tts_priority()
-
-    def _duplex(self):
-        # 处理识别结果
-        data = self.vad_queue.get()
-        # 识别到vad开始
-        if self.vad_start:
-            self.speech.append(data)
-        vad_status = data.get("vad_statue")
-        # 空闲的时候，取出耗时任务进行播放
-        if not self.task_queue.empty() and  not self.vad_start and vad_status is None \
-                and not self.player.get_playing_status() and self.chat_lock is False:
-            result = self.task_queue.get()
-            future = self.executor.submit(self.speak_and_play, result.response)
-            self.tts_queue.put(future)
-
-        """ 语音唤醒
-        if time.time() - self.start_time>=60:
-            self.silence_status = True
-
-        if self.silence_status:
-            return
-        """
-        if vad_status is None:
-            return
-        if "start" in vad_status:
-            if self.player.get_playing_status() or self.chat_lock is True:  # 正在播放，打断场景
-                if self.INTERRUPT:
-                    self.chat_lock = False
-                    self.interrupt_playback()
-                    self.vad_start = True
-                    self.speech.append(data)
-                else:
-                    return
-            else:  # 没有播放，正常
-                self.vad_start = True
-                self.speech.append(data)
-        elif "end" in vad_status and len(self.speech) > 0:
-            try:
-                logger.debug(f"语音包的长度：{len(self.speech)}")
-                self.vad_start = False
-                voice_data = [d["voice"] for d in self.speech]
-                text, tmpfile = self.asr.recognizer(voice_data)
-                self.speech = []
-            except Exception as e:
-                self.vad_start = False
-                self.speech = []
-                logger.error(f"ASR识别出错: {e}")
-                return
-            if not text.strip():
-                logger.debug("识别结果为空，跳过处理。")
-                return
-
-            logger.debug(f"ASR识别结果: {text}")
-            if self.callback:
-                self.callback({"role": "user", "content": str(text)})
-            self.executor.submit(self.chat, text)
-        return True
-
-    def run(self):
-        try:
-            self.start_recording_and_vad()  # 监听语音流
-            while not self.stop_event.is_set():
-                self._duplex()  # 双工处理
-        except KeyboardInterrupt:
-            logger.info("Received KeyboardInterrupt. Exiting...")
-        finally:
-            self.shutdown()
-
-    def speak_and_play(self, text):
-        if text is None or len(text)<=0:
-            logger.info(f"无需tts转换，query为空，{text}")
-            return None
-        tts_file = self.tts.to_tts(text)
-        if tts_file is None:
-            logger.error(f"tts转换失败，{text}")
-            return None
-        logger.debug(f"TTS 文件生成完毕{self.chat_lock}")
-        #if self.chat_lock is False:
-        #    return None
-        # 开始播放
-        # self.player.play(tts_file)
-        #return True
-        return tts_file
 
     def chat_tool(self, query):
         # 打印逐步生成的响应内容
@@ -420,7 +289,136 @@ class Robot(ABC):
         self.dialogue.dump_dialogue()
         logger.debug(json.dumps(self.dialogue.get_llm_dialogue(), indent=4, ensure_ascii=False))
         return True
+    
+    def interrupt_playback(self):
+        """中断当前的语音播放"""
+        logger.info("Interrupting current playback.")
+        self.player.stop()
 
+    def speak_and_play(self, text):
+        if text is None or len(text)<=0:
+            logger.info(f"无需tts转换，query为空，{text}")
+            return None
+        tts_file = self.tts.to_tts(text)
+        if tts_file is None:
+            logger.error(f"tts转换失败，{text}")
+            return None
+        logger.debug(f"TTS 文件生成完毕{self.chat_lock}")
+        #if self.chat_lock is False:
+        #    return None
+        # 开始播放
+        # self.player.play(tts_file)
+        #return True
+        return tts_file
+
+    def _duplex(self):
+        # 处理识别结果
+        data = self.vad_queue.get()
+        # 识别到vad开始
+        if self.vad_start:
+            self.speech.append(data)
+        vad_status = data.get("vad_statue")
+        # 空闲的时候，取出耗时任务进行播放
+        if not self.task_queue.empty() and  not self.vad_start and vad_status is None \
+                and not self.player.get_playing_status() and self.chat_lock is False:
+            result = self.task_queue.get()
+            future = self.executor.submit(self.speak_and_play, result.response)
+            self.tts_queue.put(future)
+
+        """ 语音唤醒
+        if time.time() - self.start_time>=60:
+            self.silence_status = True
+
+        if self.silence_status:
+            return
+        """
+        if vad_status is None:
+            return
+        if "start" in vad_status:
+            if self.player.get_playing_status() or self.chat_lock is True:  # 正在播放，打断场景
+                if self.INTERRUPT:
+                    self.chat_lock = False
+                    self.interrupt_playback()
+                    self.vad_start = True
+                    self.speech.append(data)
+                else:
+                    return
+            else:  # 没有播放，正常
+                self.vad_start = True
+                self.speech.append(data)
+        elif "end" in vad_status and len(self.speech) > 0:
+            try:
+                logger.debug(f"语音包的长度：{len(self.speech)}")
+                self.vad_start = False
+                voice_data = [d["voice"] for d in self.speech]
+                text, tmpfile = self.asr.recognizer(voice_data)
+                self.speech = []
+            except Exception as e:
+                self.vad_start = False
+                self.speech = []
+                logger.error(f"ASR识别出错: {e}")
+                return
+            if not text.strip():
+                logger.debug("识别结果为空，跳过处理。")
+                return
+
+            logger.debug(f"ASR识别结果: {text}")
+            if self.callback:
+                self.callback({"role": "user", "content": str(text)})
+            self.executor.submit(self.chat, text)
+        return True
+
+    def _tts_priority(self):
+        def priority_thread():
+            while not self.stop_event.is_set():
+                try:
+                    future = self.tts_queue.get()
+                    try:
+                        tts_file = future.result(timeout=1000)
+                    except TimeoutError:
+                        logger.error("TTS 任务超时")
+                        continue
+                    except Exception as e:
+                        logger.error(f"TTS 任务出错: {e}")
+                        continue
+                    if tts_file is None:
+                        continue
+                    self.player.play(tts_file)
+                except Exception as e:
+                    logger.error(f"tts_priority priority_thread: {e}")
+        tts_priority = threading.Thread(target=priority_thread, daemon=True)
+        tts_priority.start()
+
+    def _stream_vad(self):
+        def vad_thread():
+            while not self.stop_event.is_set():
+                try:
+                    data = self.audio_queue.get()
+                    vad_statue = self.vad.is_vad(data)
+                    self.vad_queue.put({"voice": data, "vad_statue": vad_statue})
+                except Exception as e:
+                    logger.error(f"VAD 处理出错: {e}")
+        consumer_audio = threading.Thread(target=vad_thread, daemon=True)
+        consumer_audio.start()
+
+    def start_recording_and_vad(self):
+        # 开始监听语音流
+        self.recorder.start_recording(self.audio_queue)
+        logger.info("Started recording.")
+        # vad 实时识别
+        self._stream_vad()
+        # tts优先级队列
+        self._tts_priority()
+
+    def run(self):
+        try:
+            self.start_recording_and_vad()  # 监听语音流
+            while not self.stop_event.is_set():
+                self._duplex()  # 双工处理
+        except KeyboardInterrupt:
+            logger.info("Received KeyboardInterrupt. Exiting...")
+        finally:
+            self.shutdown()
 
 if __name__ == "__main__":
     # Create the parser
