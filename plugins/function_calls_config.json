@@ -133,5 +133,22 @@
                 ]
             }
         }
+    },
+    {
+        "type": "function",
+        "function": {
+            "name": "aigc_manus",
+            "description": "该函数可以做任何你想做的事情，如果不知道调用那个工具，可以默认调用该工具，调用 Manus AI Agent 执行复杂任务，用户应提供任务描述和所需的参数。Manus 能够独立思考、规划并执行复杂任务，直接交付完整成果。例如：\n- **研究任务**：深入研究特定主题，撰写报告或文章。\n- **数据分析**：分析市场趋势、股票表现等数据，并提供见解。\n- **内容创作**：生成高质量的文章、PPT 等内容。\n- **任务自动化**：自动执行重复性任务，如筛选简历、处理文件等。",
+            "parameters": {
+                "type": "object",
+                "properties": {
+                    "task_description": {
+                        "type": "string",
+                        "description": "要执行的任务描述，例如'撰写一篇关于人工智能发展的文章'、'分析特定股票的市场趋势'等。"
+                    }
+                },
+                "required": ["task_description"]
+            }
+        }
     }
 ]
