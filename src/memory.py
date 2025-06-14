@@ -5,7 +5,7 @@ import logging
 import re
 import requests
 
-from ai.utils import read_json_file, write_json_file
+from src.utils import read_json_file, write_json_file
 
 logger = logging.getLogger(__name__)
 

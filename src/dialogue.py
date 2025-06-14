@@ -2,7 +2,7 @@ import os.path
 import uuid
 from typing import List, Dict
 from datetime import datetime
-from ai.utils import write_json_file
+from src.utils import write_json_file
 
 
 class Message:

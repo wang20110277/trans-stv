@@ -8,7 +8,7 @@ from concurrent.futures import ThreadPoolExecutor, TimeoutError
 import argparse
 import time
 
-from ai import (
+from src import (
     recorder,
     player,
     asr,
@@ -19,8 +19,8 @@ from ai import (
     memory,
     rag
 )
-from ai.dialogue import Message, Dialogue
-from ai.utils import is_interrupt, read_config, is_segment, extract_json_from_string
+from src.dialogue import Message, Dialogue
+from src.utils import is_interrupt, read_config, is_segment, extract_json_from_string
 from plugins.registry import Action
 from plugins.task_manager import TaskManager
 

@@ -13,7 +13,7 @@ logging.basicConfig(
         logging.FileHandler('tmp/trans-stv.log')  # 文件输出
     ]
 )
-from ai import robot
+from src import robot
 # 获取根 logger
 logger = logging.getLogger(__name__)
 

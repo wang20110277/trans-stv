@@ -1,6 +1,6 @@
 from plugins.registry import register_function, ToolType
 from plugins.registry import ActionResponse, Action
-from ai.rag import Rag
+from src.rag import Rag
 
 @register_function('search_local_documents', action=ToolType.TIME_CONSUMING)
 def search_local_documents(keyword: str):

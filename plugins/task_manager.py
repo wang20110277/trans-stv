@@ -7,7 +7,7 @@ import time
 from concurrent.futures import ThreadPoolExecutor, as_completed
 
 from plugins.registry import function_registry, Action, ActionResponse, ToolType
-from ai.utils import read_json_file
+from src.utils import read_json_file
 
 
 logger = logging.getLogger(__name__)

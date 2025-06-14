@@ -1,0 +1,170 @@
+2025-06-14 12:44:23,615 - playsound - WARNING - playsound is relying on a python 2 subprocess. Please use `pip3 install PyObjC` if you want playsound to run more efficiently.
+2025-06-14 12:44:25,858 - torio._extension.utils - DEBUG - Loading FFmpeg6
+2025-06-14 12:44:31,788 - torio._extension.utils - DEBUG - Successfully loaded FFmpeg6
+2025-06-14 12:44:36,436 - root - INFO - new registry table has been added: preprocessor_classes
+2025-06-14 12:44:36,702 - root - INFO - new registry table has been added: adaptor_classes
+2025-06-14 12:44:36,824 - root - INFO - new registry table has been added: lid_predictor_classes
+2025-06-14 12:45:07,353 - playsound - WARNING - playsound is relying on a python 2 subprocess. Please use `pip3 install PyObjC` if you want playsound to run more efficiently.
+2025-06-14 12:45:07,938 - torio._extension.utils - DEBUG - Loading FFmpeg6
+2025-06-14 12:45:07,955 - torio._extension.utils - DEBUG - Successfully loaded FFmpeg6
+2025-06-14 12:45:08,951 - root - INFO - new registry table has been added: preprocessor_classes
+2025-06-14 12:45:09,200 - root - INFO - new registry table has been added: adaptor_classes
+2025-06-14 12:45:09,319 - root - INFO - new registry table has been added: lid_predictor_classes
+2025-06-14 12:46:11,563 - playsound - WARNING - playsound is relying on a python 2 subprocess. Please use `pip3 install PyObjC` if you want playsound to run more efficiently.
+2025-06-14 12:46:12,015 - torio._extension.utils - DEBUG - Loading FFmpeg6
+2025-06-14 12:46:12,032 - torio._extension.utils - DEBUG - Successfully loaded FFmpeg6
+2025-06-14 12:46:12,900 - root - INFO - new registry table has been added: preprocessor_classes
+2025-06-14 12:46:13,149 - root - INFO - new registry table has been added: adaptor_classes
+2025-06-14 12:46:13,268 - root - INFO - new registry table has been added: lid_predictor_classes
+2025-06-14 12:46:31,250 - playsound - WARNING - playsound is relying on a python 2 subprocess. Please use `pip3 install PyObjC` if you want playsound to run more efficiently.
+2025-06-14 12:46:31,743 - torio._extension.utils - DEBUG - Loading FFmpeg6
+2025-06-14 12:46:31,761 - torio._extension.utils - DEBUG - Successfully loaded FFmpeg6
+2025-06-14 12:46:32,591 - root - INFO - new registry table has been added: preprocessor_classes
+2025-06-14 12:46:32,806 - root - INFO - new registry table has been added: adaptor_classes
+2025-06-14 12:46:32,915 - root - INFO - new registry table has been added: lid_predictor_classes
+2025-06-14 12:46:33,761 - plugins.registry - INFO - 函数 'get_day_of_week' 注册成功
+2025-06-14 12:46:33,761 - plugins.task_manager - INFO - 模块 'plugins.functions.get_day_of_week' 已加载
+2025-06-14 12:46:33,782 - plugins.registry - INFO - 函数 'get_weather' 注册成功
+2025-06-14 12:46:33,782 - plugins.task_manager - INFO - 模块 'plugins.functions.get_weather' 已加载
+2025-06-14 12:46:33,782 - plugins.registry - INFO - 函数 'ielts_speaking_practice' 注册成功
+2025-06-14 12:46:33,782 - plugins.task_manager - INFO - 模块 'plugins.functions.ielts_speaking_practice' 已加载
+2025-06-14 12:46:33,782 - plugins.registry - INFO - 函数 'open_application' 注册成功
+2025-06-14 12:46:33,782 - plugins.task_manager - INFO - 模块 'plugins.functions.open_application' 已加载
+2025-06-14 12:46:33,783 - plugins.registry - INFO - 函数 'schedule_task' 注册成功
+2025-06-14 12:46:33,783 - plugins.task_manager - INFO - 模块 'plugins.functions.schedule_task' 已加载
+2025-06-14 12:46:53,345 - playsound - WARNING - playsound is relying on a python 2 subprocess. Please use `pip3 install PyObjC` if you want playsound to run more efficiently.
+2025-06-14 12:46:53,794 - torio._extension.utils - DEBUG - Loading FFmpeg6
+2025-06-14 12:46:53,811 - torio._extension.utils - DEBUG - Successfully loaded FFmpeg6
+2025-06-14 12:46:54,837 - root - INFO - new registry table has been added: preprocessor_classes
+2025-06-14 12:46:55,085 - root - INFO - new registry table has been added: adaptor_classes
+2025-06-14 12:46:55,207 - root - INFO - new registry table has been added: lid_predictor_classes
+2025-06-14 12:46:56,137 - plugins.registry - INFO - 函数 'get_day_of_week' 注册成功
+2025-06-14 12:46:56,137 - plugins.task_manager - INFO - 模块 'plugins.functions.get_day_of_week' 已加载
+2025-06-14 12:46:56,156 - plugins.registry - INFO - 函数 'get_weather' 注册成功
+2025-06-14 12:46:56,156 - plugins.task_manager - INFO - 模块 'plugins.functions.get_weather' 已加载
+2025-06-14 12:46:56,156 - plugins.registry - INFO - 函数 'ielts_speaking_practice' 注册成功
+2025-06-14 12:46:56,156 - plugins.task_manager - INFO - 模块 'plugins.functions.ielts_speaking_practice' 已加载
+2025-06-14 12:46:56,156 - plugins.registry - INFO - 函数 'open_application' 注册成功
+2025-06-14 12:46:56,156 - plugins.task_manager - INFO - 模块 'plugins.functions.open_application' 已加载
+2025-06-14 12:46:56,157 - plugins.registry - INFO - 函数 'schedule_task' 注册成功
+2025-06-14 12:46:56,157 - plugins.task_manager - INFO - 模块 'plugins.functions.schedule_task' 已加载
+2025-06-14 12:46:56,157 - plugins.registry - INFO - 函数 'search_local_documents' 注册成功
+2025-06-14 12:46:56,157 - plugins.task_manager - INFO - 模块 'plugins.functions.search_local_documents' 已加载
+2025-06-14 12:46:56,157 - plugins.registry - INFO - 函数 'web_search' 注册成功
+2025-06-14 12:46:56,157 - plugins.task_manager - INFO - 模块 'plugins.functions.web_search' 已加载
+2025-06-14 12:46:56,162 - root - INFO - download models from model hub: hf
+2025-06-14 12:46:56,518 - root - INFO - Loading pretrained params from models/SenseVoiceSmall/model.pt
+2025-06-14 12:46:56,519 - root - INFO - ckpt: models/SenseVoiceSmall/model.pt
+2025-06-14 12:46:56,980 - root - INFO - scope_map: ['module.', 'None']
+2025-06-14 12:46:56,980 - root - INFO - excludes: None
+2025-06-14 12:46:57,117 - root - INFO - Loading ckpt: models/SenseVoiceSmall/model.pt, status: <All keys matched successfully>
+2025-06-14 12:46:57,185 - src.vad - DEBUG - VAD Iterator initialized with model RecursiveScriptModule(
+  original_name=VADRNNJITMerge
+  (_model): RecursiveScriptModule(
+    original_name=VADRNNJIT
+    (stft): RecursiveScriptModule(
+      original_name=STFT
+      (padding): RecursiveScriptModule(original_name=ReflectionPad1d)
+    )
+    (encoder): RecursiveScriptModule(
+      original_name=Sequential
+      (0): RecursiveScriptModule(
+        original_name=SileroVadBlock
+        (se): RecursiveScriptModule(original_name=Identity)
+        (activation): RecursiveScriptModule(original_name=ReLU)
+        (reparam_conv): RecursiveScriptModule(original_name=Conv1d)
+      )
+      (1): RecursiveScriptModule(
+        original_name=SileroVadBlock
+        (se): RecursiveScriptModule(original_name=Identity)
+        (activation): RecursiveScriptModule(original_name=ReLU)
+        (reparam_conv): RecursiveScriptModule(original_name=Conv1d)
+      )
+      (2): RecursiveScriptModule(
+        original_name=SileroVadBlock
+        (se): RecursiveScriptModule(original_name=Identity)
+        (activation): RecursiveScriptModule(original_name=ReLU)
+        (reparam_conv): RecursiveScriptModule(original_name=Conv1d)
+      )
+      (3): RecursiveScriptModule(
+        original_name=SileroVadBlock
+        (se): RecursiveScriptModule(original_name=Identity)
+        (activation): RecursiveScriptModule(original_name=ReLU)
+        (reparam_conv): RecursiveScriptModule(original_name=Conv1d)
+      )
+    )
+    (decoder): RecursiveScriptModule(
+      original_name=VADDecoderRNNJIT
+      (rnn): RecursiveScriptModule(original_name=LSTMCell)
+      (decoder): RecursiveScriptModule(
+        original_name=Sequential
+        (0): RecursiveScriptModule(original_name=Dropout)
+        (1): RecursiveScriptModule(original_name=ReLU)
+        (2): RecursiveScriptModule(original_name=Conv1d)
+        (3): RecursiveScriptModule(original_name=Sigmoid)
+      )
+    )
+  )
+  (_model_8k): RecursiveScriptModule(
+    original_name=VADRNNJIT
+    (stft): RecursiveScriptModule(
+      original_name=STFT
+      (padding): RecursiveScriptModule(original_name=ReflectionPad1d)
+    )
+    (encoder): RecursiveScriptModule(
+      original_name=Sequential
+      (0): RecursiveScriptModule(
+        original_name=SileroVadBlock
+        (se): RecursiveScriptModule(original_name=Identity)
+        (activation): RecursiveScriptModule(original_name=ReLU)
+        (reparam_conv): RecursiveScriptModule(original_name=Conv1d)
+      )
+      (1): RecursiveScriptModule(
+        original_name=SileroVadBlock
+        (se): RecursiveScriptModule(original_name=Identity)
+        (activation): RecursiveScriptModule(original_name=ReLU)
+        (reparam_conv): RecursiveScriptModule(original_name=Conv1d)
+      )
+      (2): RecursiveScriptModule(
+        original_name=SileroVadBlock
+        (se): RecursiveScriptModule(original_name=Identity)
+        (activation): RecursiveScriptModule(original_name=ReLU)
+        (reparam_conv): RecursiveScriptModule(original_name=Conv1d)
+      )
+      (3): RecursiveScriptModule(
+        original_name=SileroVadBlock
+        (se): RecursiveScriptModule(original_name=Identity)
+        (activation): RecursiveScriptModule(original_name=ReLU)
+        (reparam_conv): RecursiveScriptModule(original_name=Conv1d)
+      )
+    )
+    (decoder): RecursiveScriptModule(
+      original_name=VADDecoderRNNJIT
+      (rnn): RecursiveScriptModule(original_name=LSTMCell)
+      (decoder): RecursiveScriptModule(
+        original_name=Sequential
+        (0): RecursiveScriptModule(original_name=Dropout)
+        (1): RecursiveScriptModule(original_name=ReLU)
+        (2): RecursiveScriptModule(original_name=Conv1d)
+        (3): RecursiveScriptModule(original_name=Sigmoid)
+      )
+    )
+  )
+)
+2025-06-14 12:46:57,255 - langchain_community.document_loaders.directory - DEBUG - Processing file: documents/README.md
+2025-06-14 12:46:57,324 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: models/bge-small-zh
+2025-06-14 12:46:57,414 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2025-06-14 12:48:12,451 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-06-14 12:48:12,568 - chromadb.config - DEBUG - Starting component System
+2025-06-14 12:48:12,568 - chromadb.config - DEBUG - Starting component Posthog
+2025-06-14 12:48:12,568 - chromadb.config - DEBUG - Starting component OpenTelemetryClient
+2025-06-14 12:48:12,568 - chromadb.config - DEBUG - Starting component SqliteDB
+2025-06-14 12:48:12,575 - chromadb.config - DEBUG - Starting component SimpleQuotaEnforcer
+2025-06-14 12:48:12,575 - chromadb.config - DEBUG - Starting component SimpleRateLimitEnforcer
+2025-06-14 12:48:12,575 - chromadb.config - DEBUG - Starting component LocalSegmentManager
+2025-06-14 12:48:12,575 - chromadb.config - DEBUG - Starting component LocalExecutor
+2025-06-14 12:48:12,575 - chromadb.config - DEBUG - Starting component SegmentAPI
+2025-06-14 12:48:12,736 - chromadb.config - DEBUG - Starting component LocalHnswSegment
+2025-06-14 12:48:12,738 - src.robot - INFO - Started recording.
+2025-06-14 12:48:13,078 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): us.i.posthog.com:443
+2025-06-14 12:48:13,939 - urllib3.connectionpool - DEBUG - https://us.i.posthog.com:443 "POST /batch/ HTTP/1.1" 200 15

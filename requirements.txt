@@ -29,3 +29,4 @@ langchain-text-splitters==0.3.0
 kokoro>=0.7.4
 opencv-python==4.11.0.86
 sentence_transformers==4.1.0
+PyObjC==3.5.1
