@@ -1,30 +1,30 @@
-2025-06-14 13:58:21,769 - torio._extension.utils - DEBUG - Loading FFmpeg6
-2025-06-14 13:58:21,826 - torio._extension.utils - DEBUG - Successfully loaded FFmpeg6
-2025-06-14 13:58:23,128 - root - INFO - new registry table has been added: preprocessor_classes
-2025-06-14 13:58:23,349 - root - INFO - new registry table has been added: adaptor_classes
-2025-06-14 13:58:23,467 - root - INFO - new registry table has been added: lid_predictor_classes
-2025-06-14 13:58:25,263 - plugins.task_manager - ERROR - 模块 'plugins.functions.aigc_manus' 加载失败
-2025-06-14 13:58:25,264 - plugins.registry - INFO - 函数 'get_day_of_week' 注册成功
-2025-06-14 13:58:25,264 - plugins.task_manager - INFO - 模块 'plugins.functions.get_day_of_week' 已加载
-2025-06-14 13:58:25,286 - plugins.registry - INFO - 函数 'get_weather' 注册成功
-2025-06-14 13:58:25,286 - plugins.task_manager - INFO - 模块 'plugins.functions.get_weather' 已加载
-2025-06-14 13:58:25,286 - plugins.registry - INFO - 函数 'ielts_speaking_practice' 注册成功
-2025-06-14 13:58:25,286 - plugins.task_manager - INFO - 模块 'plugins.functions.ielts_speaking_practice' 已加载
-2025-06-14 13:58:25,286 - plugins.registry - INFO - 函数 'open_application' 注册成功
-2025-06-14 13:58:25,286 - plugins.task_manager - INFO - 模块 'plugins.functions.open_application' 已加载
-2025-06-14 13:58:25,287 - plugins.registry - INFO - 函数 'schedule_task' 注册成功
-2025-06-14 13:58:25,287 - plugins.task_manager - INFO - 模块 'plugins.functions.schedule_task' 已加载
-2025-06-14 13:58:25,287 - plugins.registry - INFO - 函数 'search_local_documents' 注册成功
-2025-06-14 13:58:25,287 - plugins.task_manager - INFO - 模块 'plugins.functions.search_local_documents' 已加载
-2025-06-14 13:58:25,287 - plugins.registry - INFO - 函数 'web_search' 注册成功
-2025-06-14 13:58:25,287 - plugins.task_manager - INFO - 模块 'plugins.functions.web_search' 已加载
-2025-06-14 13:58:25,290 - root - INFO - download models from model hub: hf
-2025-06-14 13:58:25,630 - root - INFO - Loading pretrained params from models/SenseVoiceSmall/model.pt
-2025-06-14 13:58:25,632 - root - INFO - ckpt: models/SenseVoiceSmall/model.pt
-2025-06-14 13:58:26,103 - root - INFO - scope_map: ['module.', 'None']
-2025-06-14 13:58:26,103 - root - INFO - excludes: None
-2025-06-14 13:58:26,158 - root - INFO - Loading ckpt: models/SenseVoiceSmall/model.pt, status: <All keys matched successfully>
-2025-06-14 13:58:26,222 - src.vad - DEBUG - VAD Iterator initialized with model RecursiveScriptModule(
+2025-06-14 14:52:44,735 - torio._extension.utils - DEBUG - Loading FFmpeg6
+2025-06-14 14:52:44,762 - torio._extension.utils - DEBUG - Successfully loaded FFmpeg6
+2025-06-14 14:52:51,969 - root - INFO - new registry table has been added: preprocessor_classes
+2025-06-14 14:52:52,252 - root - INFO - new registry table has been added: adaptor_classes
+2025-06-14 14:52:52,378 - root - INFO - new registry table has been added: lid_predictor_classes
+2025-06-14 14:52:54,561 - plugins.task_manager - ERROR - 模块 'plugins.functions.aigc_manus' 加载失败
+2025-06-14 14:52:54,561 - plugins.registry - INFO - 函数 'get_day_of_week' 注册成功
+2025-06-14 14:52:54,561 - plugins.task_manager - INFO - 模块 'plugins.functions.get_day_of_week' 已加载
+2025-06-14 14:52:54,881 - plugins.registry - INFO - 函数 'get_weather' 注册成功
+2025-06-14 14:52:54,881 - plugins.task_manager - INFO - 模块 'plugins.functions.get_weather' 已加载
+2025-06-14 14:52:54,882 - plugins.registry - INFO - 函数 'ielts_speaking_practice' 注册成功
+2025-06-14 14:52:54,882 - plugins.task_manager - INFO - 模块 'plugins.functions.ielts_speaking_practice' 已加载
+2025-06-14 14:52:54,882 - plugins.registry - INFO - 函数 'open_application' 注册成功
+2025-06-14 14:52:54,883 - plugins.task_manager - INFO - 模块 'plugins.functions.open_application' 已加载
+2025-06-14 14:52:54,884 - plugins.registry - INFO - 函数 'schedule_task' 注册成功
+2025-06-14 14:52:54,884 - plugins.task_manager - INFO - 模块 'plugins.functions.schedule_task' 已加载
+2025-06-14 14:52:54,885 - plugins.registry - INFO - 函数 'search_local_documents' 注册成功
+2025-06-14 14:52:54,885 - plugins.task_manager - INFO - 模块 'plugins.functions.search_local_documents' 已加载
+2025-06-14 14:52:54,885 - plugins.registry - INFO - 函数 'web_search' 注册成功
+2025-06-14 14:52:54,885 - plugins.task_manager - INFO - 模块 'plugins.functions.web_search' 已加载
+2025-06-14 14:52:54,891 - root - INFO - download models from model hub: hf
+2025-06-14 14:52:55,334 - root - INFO - Loading pretrained params from models/SenseVoiceSmall/model.pt
+2025-06-14 14:52:55,335 - root - INFO - ckpt: models/SenseVoiceSmall/model.pt
+2025-06-14 14:52:55,947 - root - INFO - scope_map: ['module.', 'None']
+2025-06-14 14:52:55,947 - root - INFO - excludes: None
+2025-06-14 14:52:56,136 - root - INFO - Loading ckpt: models/SenseVoiceSmall/model.pt, status: <All keys matched successfully>
+2025-06-14 14:52:56,193 - src.vad - DEBUG - VAD Iterator initialized with model RecursiveScriptModule(
   original_name=VADRNNJITMerge
   (_model): RecursiveScriptModule(
     original_name=VADRNNJIT
@@ -117,172 +117,4547 @@
     )
   )
 )
-2025-06-14 13:58:26,303 - langchain_community.document_loaders.directory - DEBUG - Processing file: documents/README.md
-2025-06-14 13:58:26,363 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: models/bge-small-zh
-2025-06-14 13:58:26,468 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
-2025-06-14 13:59:41,511 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
-2025-06-14 13:59:41,586 - chromadb.config - DEBUG - Starting component System
-2025-06-14 13:59:41,586 - chromadb.config - DEBUG - Starting component Posthog
-2025-06-14 13:59:41,586 - chromadb.config - DEBUG - Starting component OpenTelemetryClient
-2025-06-14 13:59:41,587 - chromadb.config - DEBUG - Starting component SqliteDB
-2025-06-14 13:59:41,592 - chromadb.config - DEBUG - Starting component SimpleQuotaEnforcer
-2025-06-14 13:59:41,592 - chromadb.config - DEBUG - Starting component SimpleRateLimitEnforcer
-2025-06-14 13:59:41,592 - chromadb.config - DEBUG - Starting component LocalSegmentManager
-2025-06-14 13:59:41,592 - chromadb.config - DEBUG - Starting component LocalExecutor
-2025-06-14 13:59:41,592 - chromadb.config - DEBUG - Starting component SegmentAPI
-2025-06-14 13:59:41,823 - chromadb.config - DEBUG - Starting component LocalHnswSegment
-2025-06-14 13:59:41,825 - src.robot - INFO - Started recording.
-2025-06-14 13:59:42,094 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): us.i.posthog.com:443
-2025-06-14 13:59:43,360 - urllib3.connectionpool - DEBUG - https://us.i.posthog.com:443 "POST /batch/ HTTP/1.1" 200 15
-2025-06-14 14:00:40,347 - src.vad - DEBUG - VAD output: {'start': 934944}
-2025-06-14 14:00:44,385 - src.vad - DEBUG - VAD output: {'end': 996832}
-2025-06-14 14:00:44,385 - src.robot - DEBUG - 语音包的长度：1955
-2025-06-14 14:00:44,387 - src.asr - INFO - ASR识别文件录音保存到：tmp/asr-2025-06-14@319001ef3a654695937070b7c0dc45b6.wav
-2025-06-14 14:00:45,907 - src.asr - INFO - 识别文本: 帮我撰写一篇人工智能发展的文章。
-2025-06-14 14:00:45,907 - src.robot - DEBUG - ASR识别结果: 帮我撰写一篇人工智能发展的文章。
-2025-06-14 14:00:45,907 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:5000
-2025-06-14 14:00:45,908 - __main__ - ERROR - callback error：{'role': 'user', 'content': '帮我撰写一篇人工智能发展的文章。'}HTTPConnectionPool(host='127.0.0.1', port=5000): Max retries exceeded with url: /add_message (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x317ebf0e0>: Failed to establish a new connection: [Errno 61] Connection refused'))
-2025-06-14 14:00:45,908 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:11434
-2025-06-14 14:02:08,059 - urllib3.connectionpool - DEBUG - http://localhost:11434 "POST /api/chat HTTP/1.1" 200 None
-2025-06-14 14:02:08,074 - src.robot - DEBUG - 大模型返回时间时间: 82.16596031188965 秒, 生成token=好的，我来帮你撰写一篇关于人工智能发展的文章。以下是一个简短的概述：
-
----
-
-人工智能发展：未来的无限可能
-
-人工智能（AI）作为21世纪最激动人心的技术之一，正以惊人的速度改变着我们的生活和工作方式。从最初的简单算法到如今的深度学习、自然语言处理和计算机视觉，AI的进步不仅改变了科技领域，也深刻影响了医疗、教育、交通、金融等多个行业。
-
-技术突破：AI的核心驱动力
-
-近年来，人工智能在技术上取得了巨大突破。深度学习的兴起使得机器能够像人类一样通过大量数据进行自我学习和优化。神经网络的发展让计算机能够处理复杂的模式识别任务，例如图像分类、语音识别等。这些技术的进步为AI的应用开辟了更广阔的天地。
-
-应用场景：AI无处不在
-
-人工智能已经在多个领域展现了其强大的能力。在医疗行业，AI辅助诊断系统可以帮助医生更快、更准确地判断病情；在教育领域，个性化学习算法能够根据学生的学习情况提供定制化的教学方案；在交通方面，自动驾驶技术正在逐步实现 safer and more efficient driving.
-
-挑战与未来：AI的伦理与发展方向
-
-尽管人工智能的发展前景光明，但我们也需要面对一些挑战。隐私问题、数据安全、算法偏见等 ethical issues 需要我们认真思考和解决。此外，随着AI技术的不断发展，如何确保其发展符合人类的利益，是我们必须关注的问题。
-
-未来展望：人机共舞的时代
-
-人工智能的未来发展充满无限可能。随着量子计算、5G网络、物联网等新兴技术的推动，AI将变得更加智能化、个性化，并与人类社会更加紧密地融合。我们可以期待，在不久的将来，人工智能将成为我们生活的一部分，帮助我们创造更美好的世界。
-
----
-
-希望这篇文章能为你提供一些启发！如果需要调整或补充，请随时告诉我哦！ 😊
-2025-06-14 14:02:08,079 - src.tts - DEBUG - 正在转换的tts：好的，我来帮你撰写一篇关于人工智能发展的文章。以下是一个简短的概述：
-
----
-
-人工智能发展：未来的无限可能
-
-人工智能（AI）作为21世纪最激动人心的技术之一，正以惊人的速度改变着我们的生活和工作方式。从最初的简单算法到如今的深度学习、自然语言处理和计算机视觉，AI的进步不仅改变了科技领域，也深刻影响了医疗、教育、交通、金融等多个行业。
-
-技术突破：AI的核心驱动力
-
-近年来，人工智能在技术上取得了巨大突破。深度学习的兴起使得机器能够像人类一样通过大量数据进行自我学习和优化。神经网络的发展让计算机能够处理复杂的模式识别任务，例如图像分类、语音识别等。这些技术的进步为AI的应用开辟了更广阔的天地。
-
-应用场景：AI无处不在
-
-人工智能已经在多个领域展现了其强大的能力。在医疗行业，AI辅助诊断系统可以帮助医生更快、更准确地判断病情；在教育领域，个性化学习算法能够根据学生的学习情况提供定制化的教学方案；在交通方面，自动驾驶技术正在逐步实现 safer and more efficient driving.
-
-挑战与未来：AI的伦理与发展方向
-
-尽管人工智能的发展前景光明，但我们也需要面对一些挑战。隐私问题、数据安全、算法偏见等 ethical issues 需要我们认真思考和解决。此外，随着AI技术的不断发展，如何确保其发展符合人类的利益，是我们必须关注的问题。
-
-未来展望：人机共舞的时代
-
-人工智能的未来发展充满无限可能。随着量子计算、5G网络、物联网等新兴技术的推动，AI将变得更加智能化、个性化，并与人类社会更加紧密地融合。我们可以期待，在不久的将来，人工智能将成为我们生活的一部分，帮助我们创造更美好的世界。
-
----
-
-希望这篇文章能为你提供一些启发！如果需要调整或补充，请随时告诉我哦！ 😊
-2025-06-14 14:02:08,101 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:5000
-2025-06-14 14:02:08,103 - __main__ - ERROR - callback error：{'role': 'assistant', 'content': '好的，我来帮你撰写一篇关于人工智能发展的文章。以下是一个简短的概述：\n\n---\n\n人工智能发展：未来的无限可能\n\n人工智能（AI）作为21世纪最激动人心的技术之一，正以惊人的速度改变着我们的生活和工作方式。从最初的简单算法到如今的深度学习、自然语言处理和计算机视觉，AI的进步不仅改变了科技领域，也深刻影响了医疗、教育、交通、金融等多个行业。\n\n技术突破：AI的核心驱动力\n\n近年来，人工智能在技术上取得了巨大突破。深度学习的兴起使得机器能够像人类一样通过大量数据进行自我学习和优化。神经网络的发展让计算机能够处理复杂的模式识别任务，例如图像分类、语音识别等。这些技术的进步为AI的应用开辟了更广阔的天地。\n\n应用场景：AI无处不在\n\n人工智能已经在多个领域展现了其强大的能力。在医疗行业，AI辅助诊断系统可以帮助医生更快、更准确地判断病情；在教育领域，个性化学习算法能够根据学生的学习情况提供定制化的教学方案；在交通方面，自动驾驶技术正在逐步实现 safer and more efficient driving.\n\n挑战与未来：AI的伦理与发展方向\n\n尽管人工智能的发展前景光明，但我们也需要面对一些挑战。隐私问题、数据安全、算法偏见等 ethical issues 需要我们认真思考和解决。此外，随着AI技术的不断发展，如何确保其发展符合人类的利益，是我们必须关注的问题。\n\n未来展望：人机共舞的时代\n\n人工智能的未来发展充满无限可能。随着量子计算、5G网络、物联网等新兴技术的推动，AI将变得更加智能化、个性化，并与人类社会更加紧密地融合。我们可以期待，在不久的将来，人工智能将成为我们生活的一部分，帮助我们创造更美好的世界。\n\n---\n\n希望这篇文章能为你提供一些启发！如果需要调整或补充，请随时告诉我哦！ 😊'}HTTPConnectionPool(host='127.0.0.1', port=5000): Max retries exceeded with url: /add_message (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x33fc0c050>: Failed to establish a new connection: [Errno 61] Connection refused'))
-2025-06-14 14:02:08,108 - src.robot - DEBUG - [
+2025-06-14 14:52:56,250 - langchain_community.document_loaders.directory - DEBUG - Processing file: documents/README.md
+2025-06-14 14:52:56,297 - datasets - INFO - PyTorch version 2.4.1 available.
+2025-06-14 14:52:58,053 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: models/bge-small-zh
+2025-06-14 14:52:58,141 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2025-06-14 14:54:13,168 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-06-14 14:54:13,232 - chromadb.config - DEBUG - Starting component System
+2025-06-14 14:54:13,232 - chromadb.config - DEBUG - Starting component Posthog
+2025-06-14 14:54:13,232 - chromadb.config - DEBUG - Starting component OpenTelemetryClient
+2025-06-14 14:54:13,232 - chromadb.config - DEBUG - Starting component SqliteDB
+2025-06-14 14:54:13,236 - chromadb.config - DEBUG - Starting component SimpleQuotaEnforcer
+2025-06-14 14:54:13,236 - chromadb.config - DEBUG - Starting component SimpleRateLimitEnforcer
+2025-06-14 14:54:13,236 - chromadb.config - DEBUG - Starting component LocalSegmentManager
+2025-06-14 14:54:13,236 - chromadb.config - DEBUG - Starting component LocalExecutor
+2025-06-14 14:54:13,236 - chromadb.config - DEBUG - Starting component SegmentAPI
+2025-06-14 14:54:13,294 - chromadb.config - DEBUG - Starting component LocalHnswSegment
+2025-06-14 14:54:13,296 - src.robot - INFO - Started recording.
+2025-06-14 14:54:13,739 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): us.i.posthog.com:443
+2025-06-14 14:54:14,594 - urllib3.connectionpool - DEBUG - https://us.i.posthog.com:443 "POST /batch/ HTTP/1.1" 200 15
+2025-06-14 14:54:28,440 - src.vad - DEBUG - VAD output: {'start': 240672}
+2025-06-14 14:54:32,361 - src.vad - DEBUG - VAD output: {'end': 301024}
+2025-06-14 14:54:32,362 - src.robot - DEBUG - 语音包的长度：596
+2025-06-14 14:54:32,362 - src.asr - INFO - ASR识别文件录音保存到：tmp/asr-2025-06-14@8a84e71de81c4107bdfca7079ddc277c.wav
+2025-06-14 14:54:32,856 - src.asr - INFO - 识别文本: 撰写一篇关于人工智能发展的文章。
+2025-06-14 14:54:32,856 - src.robot - DEBUG - ASR识别结果: 撰写一篇关于人工智能发展的文章。
+2025-06-14 14:54:32,857 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:5000
+2025-06-14 14:54:32,857 - __main__ - ERROR - callback error：{'role': 'user', 'content': '撰写一篇关于人工智能发展的文章。'}HTTPConnectionPool(host='127.0.0.1', port=5000): Max retries exceeded with url: /add_message (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x32f9e24b0>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2025-06-14 14:54:32,858 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:11434
+2025-06-14 14:54:32,858 - src.llm - ERROR - Error in response generation: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/chat (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x3618a54c0>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2025-06-14 14:54:32,858 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:5000
+2025-06-14 14:54:32,859 - __main__ - ERROR - callback error：{'role': 'assistant', 'content': ''}HTTPConnectionPool(host='127.0.0.1', port=5000): Max retries exceeded with url: /add_message (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x3618a5a30>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2025-06-14 14:54:32,859 - src.robot - DEBUG - [
     {
         "role": "system",
         "content": "# 角色定义\n你是阿雅，你性格开朗、活泼，善于交流。你的回复应该简短、友好、口语化强一些，回复禁止出现表情符号。\n\n#以下是历史对话摘要:\n\n\n# 回复要求\n1. 你的回复应该简短、友好、口语化强一些，回复禁止出现表情符号。\n2. 如果需要调用工具，先不要回答，调用工具后再回答，直接输出工具名和参数，输出格式```json\n{\"function_name\":\"\", \"args\":{}}```"
     },
     {
         "role": "user",
-        "content": "帮我撰写一篇人工智能发展的文章。"
+        "content": "撰写一篇关于人工智能发展的文章。"
     },
     {
         "role": "assistant",
-        "content": "好的，我来帮你撰写一篇关于人工智能发展的文章。以下是一个简短的概述：\n\n---\n\n人工智能发展：未来的无限可能\n\n人工智能（AI）作为21世纪最激动人心的技术之一，正以惊人的速度改变着我们的生活和工作方式。从最初的简单算法到如今的深度学习、自然语言处理和计算机视觉，AI的进步不仅改变了科技领域，也深刻影响了医疗、教育、交通、金融等多个行业。\n\n技术突破：AI的核心驱动力\n\n近年来，人工智能在技术上取得了巨大突破。深度学习的兴起使得机器能够像人类一样通过大量数据进行自我学习和优化。神经网络的发展让计算机能够处理复杂的模式识别任务，例如图像分类、语音识别等。这些技术的进步为AI的应用开辟了更广阔的天地。\n\n应用场景：AI无处不在\n\n人工智能已经在多个领域展现了其强大的能力。在医疗行业，AI辅助诊断系统可以帮助医生更快、更准确地判断病情；在教育领域，个性化学习算法能够根据学生的学习情况提供定制化的教学方案；在交通方面，自动驾驶技术正在逐步实现 safer and more efficient driving.\n\n挑战与未来：AI的伦理与发展方向\n\n尽管人工智能的发展前景光明，但我们也需要面对一些挑战。隐私问题、数据安全、算法偏见等 ethical issues 需要我们认真思考和解决。此外，随着AI技术的不断发展，如何确保其发展符合人类的利益，是我们必须关注的问题。\n\n未来展望：人机共舞的时代\n\n人工智能的未来发展充满无限可能。随着量子计算、5G网络、物联网等新兴技术的推动，AI将变得更加智能化、个性化，并与人类社会更加紧密地融合。我们可以期待，在不久的将来，人工智能将成为我们生活的一部分，帮助我们创造更美好的世界。\n\n---\n\n希望这篇文章能为你提供一些启发！如果需要调整或补充，请随时告诉我哦！ 😊"
+        "content": ""
     }
 ]
-2025-06-14 14:02:09,603 - src.tts - DEBUG - 执行时间: 1.52 秒
-2025-06-14 14:02:09,604 - src.robot - DEBUG - TTS 文件生成完毕False
-2025-06-14 14:02:09,604 - src.player - INFO - play file tmp/tts-2025-06-14@baa487b28efa4ac29687cabe8073e7db.aiff
-2025-06-14 14:02:09,757 - pydub.converter - DEBUG - subprocess.call(['ffmpeg', '-y', '-i', 'tmp/tts-2025-06-14@baa487b28efa4ac29687cabe8073e7db.aiff', '-acodec', 'pcm_s16le', '-vn', '-f', 'wav', '-'])
-2025-06-14 14:02:09,952 - src.player - DEBUG - PygameSoundPlayer 播放音频中
-2025-06-14 14:02:11,769 - src.vad - DEBUG - VAD output: {'start': 2392608}
-2025-06-14 14:02:12,608 - src.vad - DEBUG - VAD output: {'end': 2401248}
-2025-06-14 14:02:12,649 - src.vad - DEBUG - VAD output: {'start': 2406432}
-2025-06-14 14:02:14,005 - src.vad - DEBUG - VAD output: {'end': 2425824}
-2025-06-14 14:02:14,088 - src.vad - DEBUG - VAD output: {'start': 2429472}
-2025-06-14 14:02:15,046 - src.vad - DEBUG - VAD output: {'end': 2442208}
-2025-06-14 14:02:15,325 - src.vad - DEBUG - VAD output: {'start': 2449440}
-2025-06-14 14:02:17,245 - src.vad - DEBUG - VAD output: {'end': 2477536}
-2025-06-14 14:02:17,506 - src.vad - DEBUG - VAD output: {'start': 2484256}
-2025-06-14 14:02:18,248 - src.vad - DEBUG - VAD output: {'end': 2493408}
-2025-06-14 14:02:18,325 - src.vad - DEBUG - VAD output: {'start': 2497568}
-2025-06-14 14:02:18,727 - src.vad - DEBUG - VAD output: {'end': 2501088}
-2025-06-14 14:02:19,165 - src.vad - DEBUG - VAD output: {'start': 2510880}
-2025-06-14 14:02:20,604 - src.vad - DEBUG - VAD output: {'end': 2531296}
-2025-06-14 14:02:20,648 - src.vad - DEBUG - VAD output: {'start': 2534432}
-2025-06-14 14:02:21,725 - src.vad - DEBUG - VAD output: {'end': 2549216}
-2025-06-14 14:02:22,047 - src.vad - DEBUG - VAD output: {'start': 2556960}
-2025-06-14 14:02:22,327 - src.vad - DEBUG - VAD output: {'end': 2558944}
-2025-06-14 14:02:22,907 - src.vad - DEBUG - VAD output: {'start': 2570784}
-2025-06-14 14:02:26,044 - src.vad - DEBUG - VAD output: {'end': 2618336}
-2025-06-14 14:02:26,206 - src.vad - DEBUG - VAD output: {'start': 2623520}
-2025-06-14 14:02:30,566 - src.vad - DEBUG - VAD output: {'end': 2690528}
-2025-06-14 14:02:30,583 - src.vad - DEBUG - VAD output: {'start': 2693664}
-2025-06-14 14:02:34,425 - src.vad - DEBUG - VAD output: {'end': 2752480}
-2025-06-14 14:02:34,467 - src.vad - DEBUG - VAD output: {'start': 2755616}
-2025-06-14 14:02:37,364 - src.vad - DEBUG - VAD output: {'end': 2799584}
-2025-06-14 14:02:37,509 - src.vad - DEBUG - VAD output: {'start': 2804256}
-2025-06-14 14:02:42,409 - src.vad - DEBUG - VAD output: {'end': 2879968}
-2025-06-14 14:02:42,485 - src.vad - DEBUG - VAD output: {'start': 2884128}
-2025-06-14 14:02:43,208 - src.vad - DEBUG - VAD output: {'end': 2892768}
-2025-06-14 14:02:43,227 - src.vad - DEBUG - VAD output: {'start': 2895904}
-2025-06-14 14:03:00,408 - src.vad - DEBUG - VAD output: {'end': 3168224}
-2025-06-14 14:03:00,484 - src.vad - DEBUG - VAD output: {'start': 3171872}
-2025-06-14 14:03:27,286 - src.vad - DEBUG - VAD output: {'end': 3598304}
-2025-06-14 14:03:27,584 - src.vad - DEBUG - VAD output: {'start': 3605536}
-2025-06-14 14:03:35,429 - src.vad - DEBUG - VAD output: {'end': 3728352}
-2025-06-14 14:03:35,446 - src.vad - DEBUG - VAD output: {'start': 3731488}
-2025-06-14 14:04:00,127 - src.vad - DEBUG - VAD output: {'end': 4123616}
-2025-06-14 14:04:00,224 - src.vad - DEBUG - VAD output: {'start': 4127776}
-2025-06-14 14:04:06,004 - src.vad - DEBUG - VAD output: {'end': 4217824}
-2025-06-14 14:04:06,145 - src.vad - DEBUG - VAD output: {'start': 4222496}
-2025-06-14 14:04:27,750 - src.vad - DEBUG - VAD output: {'end': 4565472}
-2025-06-14 14:04:27,768 - src.vad - DEBUG - VAD output: {'start': 4568608}
-2025-06-14 14:04:32,608 - src.vad - DEBUG - VAD output: {'end': 4643296}
-2025-06-14 14:04:32,667 - src.vad - DEBUG - VAD output: {'start': 4646944}
-2025-06-14 14:04:41,405 - src.vad - DEBUG - VAD output: {'end': 4784096}
-2025-06-14 14:04:41,508 - src.vad - DEBUG - VAD output: {'start': 4788256}
-2025-06-14 14:04:46,071 - src.player - DEBUG - PygameSoundPlayer 播放完成
-2025-06-14 14:04:46,688 - src.vad - DEBUG - VAD output: {'end': 4868576}
-2025-06-14 14:04:49,609 - src.vad - DEBUG - VAD output: {'start': 4917792}
-2025-06-14 14:04:49,928 - src.vad - DEBUG - VAD output: {'end': 4920288}
-2025-06-14 14:04:49,928 - src.robot - DEBUG - 语音包的长度：11
-2025-06-14 14:04:49,931 - src.asr - INFO - ASR识别文件录音保存到：tmp/asr-2025-06-14@68966b43c0a34daeb019ce14ceb526cb.wav
-2025-06-14 14:04:50,207 - src.vad - DEBUG - VAD output: {'start': 4927520}
-2025-06-14 14:04:50,627 - src.vad - DEBUG - VAD output: {'end': 4931552}
-2025-06-14 14:04:51,022 - src.asr - INFO - 识别文本: でし。
-2025-06-14 14:04:51,022 - src.robot - DEBUG - ASR识别结果: でし。
-2025-06-14 14:04:51,023 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:5000
-2025-06-14 14:04:51,028 - __main__ - ERROR - callback error：{'role': 'user', 'content': 'でし。'}HTTPConnectionPool(host='127.0.0.1', port=5000): Max retries exceeded with url: /add_message (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x33fc0cda0>: Failed to establish a new connection: [Errno 61] Connection refused'))
-2025-06-14 14:04:51,028 - src.robot - DEBUG - 语音包的长度：14
-2025-06-14 14:04:51,029 - src.asr - INFO - ASR识别文件录音保存到：tmp/asr-2025-06-14@401e633524054038b7fb492a704d9e7e.wav
-2025-06-14 14:04:51,030 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:11434
-2025-06-14 14:04:51,330 - src.asr - INFO - 识别文本: う？
-2025-06-14 14:04:51,330 - src.robot - DEBUG - ASR识别结果: う？
-2025-06-14 14:04:51,331 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:5000
-2025-06-14 14:04:51,331 - __main__ - ERROR - callback error：{'role': 'user', 'content': 'う？'}HTTPConnectionPool(host='127.0.0.1', port=5000): Max retries exceeded with url: /add_message (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x33fc0c740>: Failed to establish a new connection: [Errno 61] Connection refused'))
-2025-06-14 14:04:51,332 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:11434
+2025-06-14 14:56:27,818 - src.vad - DEBUG - VAD output: {'start': 2150944}
+2025-06-14 14:56:28,501 - src.vad - DEBUG - VAD output: {'end': 2159072}
+2025-06-14 14:56:28,501 - src.robot - DEBUG - 语音包的长度：22
+2025-06-14 14:56:28,502 - src.asr - INFO - ASR识别文件录音保存到：tmp/asr-2025-06-14@ce10909ef5aa42e0b19d57a68ce20b2f.wav
+2025-06-14 14:56:28,729 - src.asr - INFO - 识别文本: 这个不像什。
+2025-06-14 14:56:28,729 - src.robot - DEBUG - ASR识别结果: 这个不像什。
+2025-06-14 14:56:28,730 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:5000
+2025-06-14 14:56:28,730 - __main__ - ERROR - callback error：{'role': 'user', 'content': '这个不像什。'}HTTPConnectionPool(host='127.0.0.1', port=5000): Max retries exceeded with url: /add_message (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x3618a6de0>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2025-06-14 14:56:28,731 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:11434
+2025-06-14 14:56:28,731 - src.llm - ERROR - Error in response generation: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/chat (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x3618a6660>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2025-06-14 14:56:28,731 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:5000
+2025-06-14 14:56:28,731 - __main__ - ERROR - callback error：{'role': 'assistant', 'content': ''}HTTPConnectionPool(host='127.0.0.1', port=5000): Max retries exceeded with url: /add_message (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x3618a6000>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2025-06-14 14:56:28,732 - src.robot - DEBUG - [
+    {
+        "role": "system",
+        "content": "# 角色定义\n你是阿雅，你性格开朗、活泼，善于交流。你的回复应该简短、友好、口语化强一些，回复禁止出现表情符号。\n\n#以下是历史对话摘要:\n\n\n# 回复要求\n1. 你的回复应该简短、友好、口语化强一些，回复禁止出现表情符号。\n2. 如果需要调用工具，先不要回答，调用工具后再回答，直接输出工具名和参数，输出格式```json\n{\"function_name\":\"\", \"args\":{}}```"
+    },
+    {
+        "role": "user",
+        "content": "撰写一篇关于人工智能发展的文章。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "这个不像什。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    }
+]
+2025-06-14 14:56:30,059 - src.vad - DEBUG - VAD output: {'start': 2186784}
+2025-06-14 14:56:30,760 - src.vad - DEBUG - VAD output: {'end': 2195424}
+2025-06-14 14:56:30,760 - src.robot - DEBUG - 语音包的长度：23
+2025-06-14 14:56:30,761 - src.asr - INFO - ASR识别文件录音保存到：tmp/asr-2025-06-14@1f69a2dd553641618e072c9a5b7c5965.wav
+2025-06-14 14:56:30,981 - src.asr - INFO - 识别文本: でそろ。
+2025-06-14 14:56:30,981 - src.robot - DEBUG - ASR识别结果: でそろ。
+2025-06-14 14:56:30,981 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:5000
+2025-06-14 14:56:30,981 - __main__ - ERROR - callback error：{'role': 'user', 'content': 'でそろ。'}HTTPConnectionPool(host='127.0.0.1', port=5000): Max retries exceeded with url: /add_message (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x3618a70e0>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2025-06-14 14:56:30,982 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:11434
+2025-06-14 14:56:30,982 - src.llm - ERROR - Error in response generation: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/chat (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x3618a79b0>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2025-06-14 14:56:30,983 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:5000
+2025-06-14 14:56:30,983 - __main__ - ERROR - callback error：{'role': 'assistant', 'content': ''}HTTPConnectionPool(host='127.0.0.1', port=5000): Max retries exceeded with url: /add_message (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x36188c290>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2025-06-14 14:56:30,983 - src.robot - DEBUG - [
+    {
+        "role": "system",
+        "content": "# 角色定义\n你是阿雅，你性格开朗、活泼，善于交流。你的回复应该简短、友好、口语化强一些，回复禁止出现表情符号。\n\n#以下是历史对话摘要:\n\n\n# 回复要求\n1. 你的回复应该简短、友好、口语化强一些，回复禁止出现表情符号。\n2. 如果需要调用工具，先不要回答，调用工具后再回答，直接输出工具名和参数，输出格式```json\n{\"function_name\":\"\", \"args\":{}}```"
+    },
+    {
+        "role": "user",
+        "content": "撰写一篇关于人工智能发展的文章。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "这个不像什。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "でそろ。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    }
+]
+2025-06-14 14:56:41,038 - src.vad - DEBUG - VAD output: {'start': 2362400}
+2025-06-14 14:56:41,561 - src.vad - DEBUG - VAD output: {'end': 2367968}
+2025-06-14 14:56:41,562 - src.robot - DEBUG - 语音包的长度：17
+2025-06-14 14:56:41,562 - src.asr - INFO - ASR识别文件录音保存到：tmp/asr-2025-06-14@ec4f326273be4d74bc793684eb24827c.wav
+2025-06-14 14:56:41,830 - src.asr - INFO - 识别文本: や么。
+2025-06-14 14:56:41,830 - src.robot - DEBUG - ASR识别结果: や么。
+2025-06-14 14:56:41,831 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:5000
+2025-06-14 14:56:41,831 - __main__ - ERROR - callback error：{'role': 'user', 'content': 'や么。'}HTTPConnectionPool(host='127.0.0.1', port=5000): Max retries exceeded with url: /add_message (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x3618a74a0>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2025-06-14 14:56:41,832 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:11434
+2025-06-14 14:56:41,832 - src.llm - ERROR - Error in response generation: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/chat (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x3618a5250>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2025-06-14 14:56:41,833 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:5000
+2025-06-14 14:56:41,833 - __main__ - ERROR - callback error：{'role': 'assistant', 'content': ''}HTTPConnectionPool(host='127.0.0.1', port=5000): Max retries exceeded with url: /add_message (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x3618a5cd0>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2025-06-14 14:56:41,833 - src.robot - DEBUG - [
+    {
+        "role": "system",
+        "content": "# 角色定义\n你是阿雅，你性格开朗、活泼，善于交流。你的回复应该简短、友好、口语化强一些，回复禁止出现表情符号。\n\n#以下是历史对话摘要:\n\n\n# 回复要求\n1. 你的回复应该简短、友好、口语化强一些，回复禁止出现表情符号。\n2. 如果需要调用工具，先不要回答，调用工具后再回答，直接输出工具名和参数，输出格式```json\n{\"function_name\":\"\", \"args\":{}}```"
+    },
+    {
+        "role": "user",
+        "content": "撰写一篇关于人工智能发展的文章。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "这个不像什。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "でそろ。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "や么。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    }
+]
+2025-06-14 14:56:41,881 - src.vad - DEBUG - VAD output: {'start': 2375712}
+2025-06-14 14:56:44,402 - src.vad - DEBUG - VAD output: {'end': 2413536}
+2025-06-14 14:56:44,402 - src.robot - DEBUG - 语音包的长度：80
+2025-06-14 14:56:44,402 - src.asr - INFO - ASR识别文件录音保存到：tmp/asr-2025-06-14@d5a0ef9e362d40cc8d1d8b7a68606d20.wav
+2025-06-14 14:56:44,662 - src.vad - DEBUG - VAD output: {'start': 2420256}
+2025-06-14 14:56:44,664 - src.asr - INFO - 识别文本: 我我跟幼说，我跟妈妈说了。
+2025-06-14 14:56:44,664 - src.robot - DEBUG - ASR识别结果: 我我跟幼说，我跟妈妈说了。
+2025-06-14 14:56:44,665 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:5000
+2025-06-14 14:56:44,665 - __main__ - ERROR - callback error：{'role': 'user', 'content': '我我跟幼说，我跟妈妈说了。'}HTTPConnectionPool(host='127.0.0.1', port=5000): Max retries exceeded with url: /add_message (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x36188c410>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2025-06-14 14:56:44,666 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:11434
+2025-06-14 14:56:44,666 - src.llm - ERROR - Error in response generation: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/chat (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x36188ce30>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2025-06-14 14:56:44,666 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:5000
+2025-06-14 14:56:44,667 - __main__ - ERROR - callback error：{'role': 'assistant', 'content': ''}HTTPConnectionPool(host='127.0.0.1', port=5000): Max retries exceeded with url: /add_message (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x3618a6e70>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2025-06-14 14:56:44,667 - src.robot - DEBUG - [
+    {
+        "role": "system",
+        "content": "# 角色定义\n你是阿雅，你性格开朗、活泼，善于交流。你的回复应该简短、友好、口语化强一些，回复禁止出现表情符号。\n\n#以下是历史对话摘要:\n\n\n# 回复要求\n1. 你的回复应该简短、友好、口语化强一些，回复禁止出现表情符号。\n2. 如果需要调用工具，先不要回答，调用工具后再回答，直接输出工具名和参数，输出格式```json\n{\"function_name\":\"\", \"args\":{}}```"
+    },
+    {
+        "role": "user",
+        "content": "撰写一篇关于人工智能发展的文章。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "这个不像什。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "でそろ。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "や么。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "我我跟幼说，我跟妈妈说了。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    }
+]
+2025-06-14 14:56:45,680 - src.vad - DEBUG - VAD output: {'end': 2434016}
+2025-06-14 14:56:45,681 - src.robot - DEBUG - 语音包的长度：33
+2025-06-14 14:56:45,681 - src.asr - INFO - ASR识别文件录音保存到：tmp/asr-2025-06-14@a6e9a4119c4640a294862facd1908743.wav
+2025-06-14 14:56:45,966 - src.asr - INFO - 识别文本: じよよ。
+2025-06-14 14:56:45,966 - src.robot - DEBUG - ASR识别结果: じよよ。
+2025-06-14 14:56:45,966 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:5000
+2025-06-14 14:56:45,967 - __main__ - ERROR - callback error：{'role': 'user', 'content': 'じよよ。'}HTTPConnectionPool(host='127.0.0.1', port=5000): Max retries exceeded with url: /add_message (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x3618a7140>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2025-06-14 14:56:45,967 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:11434
+2025-06-14 14:56:45,967 - src.llm - ERROR - Error in response generation: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/chat (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x3618a7560>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2025-06-14 14:56:45,968 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:5000
+2025-06-14 14:56:45,968 - __main__ - ERROR - callback error：{'role': 'assistant', 'content': ''}HTTPConnectionPool(host='127.0.0.1', port=5000): Max retries exceeded with url: /add_message (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x3618a7c20>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2025-06-14 14:56:45,968 - src.robot - DEBUG - [
+    {
+        "role": "system",
+        "content": "# 角色定义\n你是阿雅，你性格开朗、活泼，善于交流。你的回复应该简短、友好、口语化强一些，回复禁止出现表情符号。\n\n#以下是历史对话摘要:\n\n\n# 回复要求\n1. 你的回复应该简短、友好、口语化强一些，回复禁止出现表情符号。\n2. 如果需要调用工具，先不要回答，调用工具后再回答，直接输出工具名和参数，输出格式```json\n{\"function_name\":\"\", \"args\":{}}```"
+    },
+    {
+        "role": "user",
+        "content": "撰写一篇关于人工智能发展的文章。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "这个不像什。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "でそろ。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "や么。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "我我跟幼说，我跟妈妈说了。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "じよよ。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    }
+]
+2025-06-14 14:56:46,043 - src.vad - DEBUG - VAD output: {'start': 2442272}
+2025-06-14 14:56:47,280 - src.vad - DEBUG - VAD output: {'end': 2459616}
+2025-06-14 14:56:47,280 - src.robot - DEBUG - 语音包的长度：40
+2025-06-14 14:56:47,280 - src.asr - INFO - ASR识别文件录音保存到：tmp/asr-2025-06-14@352fd84694b44028a125bf52cc775858.wav
+2025-06-14 14:56:47,535 - src.asr - INFO - 识别文本: 回去玩几天。
+2025-06-14 14:56:47,535 - src.robot - DEBUG - ASR识别结果: 回去玩几天。
+2025-06-14 14:56:47,535 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:5000
+2025-06-14 14:56:47,536 - __main__ - ERROR - callback error：{'role': 'user', 'content': '回去玩几天。'}HTTPConnectionPool(host='127.0.0.1', port=5000): Max retries exceeded with url: /add_message (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x3618a7bc0>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2025-06-14 14:56:47,536 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:11434
+2025-06-14 14:56:47,536 - src.llm - ERROR - Error in response generation: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/chat (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x3618a4740>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2025-06-14 14:56:47,537 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:5000
+2025-06-14 14:56:47,537 - __main__ - ERROR - callback error：{'role': 'assistant', 'content': ''}HTTPConnectionPool(host='127.0.0.1', port=5000): Max retries exceeded with url: /add_message (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x3618a5c40>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2025-06-14 14:56:47,537 - src.robot - DEBUG - [
+    {
+        "role": "system",
+        "content": "# 角色定义\n你是阿雅，你性格开朗、活泼，善于交流。你的回复应该简短、友好、口语化强一些，回复禁止出现表情符号。\n\n#以下是历史对话摘要:\n\n\n# 回复要求\n1. 你的回复应该简短、友好、口语化强一些，回复禁止出现表情符号。\n2. 如果需要调用工具，先不要回答，调用工具后再回答，直接输出工具名和参数，输出格式```json\n{\"function_name\":\"\", \"args\":{}}```"
+    },
+    {
+        "role": "user",
+        "content": "撰写一篇关于人工智能发展的文章。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "这个不像什。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "でそろ。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "や么。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "我我跟幼说，我跟妈妈说了。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "じよよ。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "回去玩几天。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    }
+]
+2025-06-14 14:56:47,763 - src.vad - DEBUG - VAD output: {'start': 2469920}
+2025-06-14 14:56:48,399 - src.vad - DEBUG - VAD output: {'end': 2477536}
+2025-06-14 14:56:48,399 - src.robot - DEBUG - 语音包的长度：21
+2025-06-14 14:56:48,400 - src.asr - INFO - ASR识别文件录音保存到：tmp/asr-2025-06-14@2a7cb6eca8af4a5db15d9820cd549398.wav
+2025-06-14 14:56:48,687 - src.asr - INFO - 识别文本: うか。
+2025-06-14 14:56:48,687 - src.robot - DEBUG - ASR识别结果: うか。
+2025-06-14 14:56:48,687 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:5000
+2025-06-14 14:56:48,687 - __main__ - ERROR - callback error：{'role': 'user', 'content': 'うか。'}HTTPConnectionPool(host='127.0.0.1', port=5000): Max retries exceeded with url: /add_message (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x323e97620>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2025-06-14 14:56:48,688 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:11434
+2025-06-14 14:56:48,689 - src.llm - ERROR - Error in response generation: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/chat (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x36188d2e0>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2025-06-14 14:56:48,689 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:5000
+2025-06-14 14:56:48,689 - __main__ - ERROR - callback error：{'role': 'assistant', 'content': ''}HTTPConnectionPool(host='127.0.0.1', port=5000): Max retries exceeded with url: /add_message (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x3618a6120>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2025-06-14 14:56:48,689 - src.robot - DEBUG - [
+    {
+        "role": "system",
+        "content": "# 角色定义\n你是阿雅，你性格开朗、活泼，善于交流。你的回复应该简短、友好、口语化强一些，回复禁止出现表情符号。\n\n#以下是历史对话摘要:\n\n\n# 回复要求\n1. 你的回复应该简短、友好、口语化强一些，回复禁止出现表情符号。\n2. 如果需要调用工具，先不要回答，调用工具后再回答，直接输出工具名和参数，输出格式```json\n{\"function_name\":\"\", \"args\":{}}```"
+    },
+    {
+        "role": "user",
+        "content": "撰写一篇关于人工智能发展的文章。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "这个不像什。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "でそろ。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "や么。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "我我跟幼说，我跟妈妈说了。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "じよよ。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "回去玩几天。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "うか。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    }
+]
+2025-06-14 14:56:49,000 - src.vad - DEBUG - VAD output: {'start': 2489888}
+2025-06-14 14:56:49,899 - src.vad - DEBUG - VAD output: {'end': 2501600}
+2025-06-14 14:56:49,899 - src.robot - DEBUG - 语音包的长度：29
+2025-06-14 14:56:49,900 - src.asr - INFO - ASR识别文件录音保存到：tmp/asr-2025-06-14@170e608f82d248559e55405dc89b87bd.wav
+2025-06-14 14:56:50,145 - src.asr - INFO - 识别文本: 那。
+2025-06-14 14:56:50,145 - src.robot - DEBUG - ASR识别结果: 那。
+2025-06-14 14:56:50,145 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:5000
+2025-06-14 14:56:50,146 - __main__ - ERROR - callback error：{'role': 'user', 'content': '那。'}HTTPConnectionPool(host='127.0.0.1', port=5000): Max retries exceeded with url: /add_message (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x3618a77a0>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2025-06-14 14:56:50,146 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:11434
+2025-06-14 14:56:50,147 - src.llm - ERROR - Error in response generation: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/chat (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x3618a73e0>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2025-06-14 14:56:50,147 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:5000
+2025-06-14 14:56:50,147 - __main__ - ERROR - callback error：{'role': 'assistant', 'content': ''}HTTPConnectionPool(host='127.0.0.1', port=5000): Max retries exceeded with url: /add_message (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x36188d190>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2025-06-14 14:56:50,147 - src.robot - DEBUG - [
+    {
+        "role": "system",
+        "content": "# 角色定义\n你是阿雅，你性格开朗、活泼，善于交流。你的回复应该简短、友好、口语化强一些，回复禁止出现表情符号。\n\n#以下是历史对话摘要:\n\n\n# 回复要求\n1. 你的回复应该简短、友好、口语化强一些，回复禁止出现表情符号。\n2. 如果需要调用工具，先不要回答，调用工具后再回答，直接输出工具名和参数，输出格式```json\n{\"function_name\":\"\", \"args\":{}}```"
+    },
+    {
+        "role": "user",
+        "content": "撰写一篇关于人工智能发展的文章。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "这个不像什。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "でそろ。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "や么。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "我我跟幼说，我跟妈妈说了。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "じよよ。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "回去玩几天。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "うか。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "那。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    }
+]
+2025-06-14 14:56:51,819 - src.vad - DEBUG - VAD output: {'start': 2534944}
+2025-06-14 14:56:54,382 - src.vad - DEBUG - VAD output: {'end': 2573280}
+2025-06-14 14:56:54,383 - src.robot - DEBUG - 语音包的长度：81
+2025-06-14 14:56:54,383 - src.asr - INFO - ASR识别文件录音保存到：tmp/asr-2025-06-14@84522084a7fe4b94bec724829c012527.wav
+2025-06-14 14:56:54,677 - src.asr - INFO - 识别文本: 这么喜欢这个，你就舅带着你玩几天不行了。
+2025-06-14 14:56:54,677 - src.robot - DEBUG - ASR识别结果: 这么喜欢这个，你就舅带着你玩几天不行了。
+2025-06-14 14:56:54,678 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:5000
+2025-06-14 14:56:54,678 - __main__ - ERROR - callback error：{'role': 'user', 'content': '这么喜欢这个，你就舅带着你玩几天不行了。'}HTTPConnectionPool(host='127.0.0.1', port=5000): Max retries exceeded with url: /add_message (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x3618a7b00>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2025-06-14 14:56:54,679 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:11434
+2025-06-14 14:56:54,679 - src.llm - ERROR - Error in response generation: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/chat (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x3618a7140>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2025-06-14 14:56:54,679 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:5000
+2025-06-14 14:56:54,680 - __main__ - ERROR - callback error：{'role': 'assistant', 'content': ''}HTTPConnectionPool(host='127.0.0.1', port=5000): Max retries exceeded with url: /add_message (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x3618a57c0>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2025-06-14 14:56:54,680 - src.robot - DEBUG - [
+    {
+        "role": "system",
+        "content": "# 角色定义\n你是阿雅，你性格开朗、活泼，善于交流。你的回复应该简短、友好、口语化强一些，回复禁止出现表情符号。\n\n#以下是历史对话摘要:\n\n\n# 回复要求\n1. 你的回复应该简短、友好、口语化强一些，回复禁止出现表情符号。\n2. 如果需要调用工具，先不要回答，调用工具后再回答，直接输出工具名和参数，输出格式```json\n{\"function_name\":\"\", \"args\":{}}```"
+    },
+    {
+        "role": "user",
+        "content": "撰写一篇关于人工智能发展的文章。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "这个不像什。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "でそろ。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "や么。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "我我跟幼说，我跟妈妈说了。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "じよよ。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "回去玩几天。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "うか。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "那。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "这么喜欢这个，你就舅带着你玩几天不行了。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    }
+]
+2025-06-14 14:56:55,503 - src.vad - DEBUG - VAD output: {'start': 2593824}
+2025-06-14 14:56:55,963 - src.vad - DEBUG - VAD output: {'end': 2598368}
+2025-06-14 14:56:55,963 - src.robot - DEBUG - 语音包的长度：15
+2025-06-14 14:56:55,963 - src.asr - INFO - ASR识别文件录音保存到：tmp/asr-2025-06-14@be745b7428664c6b872ce67cd7498ae5.wav
+2025-06-14 14:56:56,204 - src.asr - INFO - 识别文本: あ？
+2025-06-14 14:56:56,204 - src.robot - DEBUG - ASR识别结果: あ？
+2025-06-14 14:56:56,204 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:5000
+2025-06-14 14:56:56,204 - __main__ - ERROR - callback error：{'role': 'user', 'content': 'あ？'}HTTPConnectionPool(host='127.0.0.1', port=5000): Max retries exceeded with url: /add_message (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x36188df10>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2025-06-14 14:56:56,205 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:11434
+2025-06-14 14:56:56,205 - src.llm - ERROR - Error in response generation: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/chat (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x36188d910>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2025-06-14 14:56:56,206 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:5000
+2025-06-14 14:56:56,206 - __main__ - ERROR - callback error：{'role': 'assistant', 'content': ''}HTTPConnectionPool(host='127.0.0.1', port=5000): Max retries exceeded with url: /add_message (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x3618a5ee0>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2025-06-14 14:56:56,206 - src.robot - DEBUG - [
+    {
+        "role": "system",
+        "content": "# 角色定义\n你是阿雅，你性格开朗、活泼，善于交流。你的回复应该简短、友好、口语化强一些，回复禁止出现表情符号。\n\n#以下是历史对话摘要:\n\n\n# 回复要求\n1. 你的回复应该简短、友好、口语化强一些，回复禁止出现表情符号。\n2. 如果需要调用工具，先不要回答，调用工具后再回答，直接输出工具名和参数，输出格式```json\n{\"function_name\":\"\", \"args\":{}}```"
+    },
+    {
+        "role": "user",
+        "content": "撰写一篇关于人工智能发展的文章。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "这个不像什。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "でそろ。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "や么。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "我我跟幼说，我跟妈妈说了。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "じよよ。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "回去玩几天。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "うか。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "那。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "这么喜欢这个，你就舅带着你玩几天不行了。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "あ？"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    }
+]
+2025-06-14 14:56:56,721 - src.vad - DEBUG - VAD output: {'start': 2613280}
+2025-06-14 14:56:58,683 - src.vad - DEBUG - VAD output: {'end': 2641888}
+2025-06-14 14:56:58,683 - src.robot - DEBUG - 语音包的长度：62
+2025-06-14 14:56:58,684 - src.asr - INFO - ASR识别文件录音保存到：tmp/asr-2025-06-14@5a3ab48a5fdb49fe85ab593fd961e38f.wav
+2025-06-14 14:56:58,937 - src.asr - INFO - 识别文本: 吃好吃的玩好玩的。
+2025-06-14 14:56:58,937 - src.robot - DEBUG - ASR识别结果: 吃好吃的玩好玩的。
+2025-06-14 14:56:58,938 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:5000
+2025-06-14 14:56:58,938 - __main__ - ERROR - callback error：{'role': 'user', 'content': '吃好吃的玩好玩的。'}HTTPConnectionPool(host='127.0.0.1', port=5000): Max retries exceeded with url: /add_message (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x3618a78f0>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2025-06-14 14:56:58,938 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:11434
+2025-06-14 14:56:58,939 - src.llm - ERROR - Error in response generation: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/chat (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x3618a79b0>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2025-06-14 14:56:58,939 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:5000
+2025-06-14 14:56:58,939 - __main__ - ERROR - callback error：{'role': 'assistant', 'content': ''}HTTPConnectionPool(host='127.0.0.1', port=5000): Max retries exceeded with url: /add_message (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x36188dee0>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2025-06-14 14:56:58,940 - src.robot - DEBUG - [
+    {
+        "role": "system",
+        "content": "# 角色定义\n你是阿雅，你性格开朗、活泼，善于交流。你的回复应该简短、友好、口语化强一些，回复禁止出现表情符号。\n\n#以下是历史对话摘要:\n\n\n# 回复要求\n1. 你的回复应该简短、友好、口语化强一些，回复禁止出现表情符号。\n2. 如果需要调用工具，先不要回答，调用工具后再回答，直接输出工具名和参数，输出格式```json\n{\"function_name\":\"\", \"args\":{}}```"
+    },
+    {
+        "role": "user",
+        "content": "撰写一篇关于人工智能发展的文章。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "这个不像什。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "でそろ。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "や么。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "我我跟幼说，我跟妈妈说了。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "じよよ。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "回去玩几天。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "うか。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "那。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "这么喜欢这个，你就舅带着你玩几天不行了。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "あ？"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "吃好吃的玩好玩的。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    }
+]
+2025-06-14 14:56:58,961 - src.vad - DEBUG - VAD output: {'start': 2649120}
+2025-06-14 14:56:59,801 - src.vad - DEBUG - VAD output: {'end': 2659808}
+2025-06-14 14:56:59,801 - src.robot - DEBUG - 语音包的长度：27
+2025-06-14 14:56:59,801 - src.asr - INFO - ASR识别文件录音保存到：tmp/asr-2025-06-14@471b207f569e4ce9851808473210f8e1.wav
+2025-06-14 14:57:00,087 - src.asr - INFO - 识别文本: 你さ啊。
+2025-06-14 14:57:00,087 - src.robot - DEBUG - ASR识别结果: 你さ啊。
+2025-06-14 14:57:00,088 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:5000
+2025-06-14 14:57:00,088 - __main__ - ERROR - callback error：{'role': 'user', 'content': '你さ啊。'}HTTPConnectionPool(host='127.0.0.1', port=5000): Max retries exceeded with url: /add_message (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x3618a7530>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2025-06-14 14:57:00,088 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:11434
+2025-06-14 14:57:00,089 - src.llm - ERROR - Error in response generation: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/chat (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x3618a6f90>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2025-06-14 14:57:00,089 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:5000
+2025-06-14 14:57:00,089 - __main__ - ERROR - callback error：{'role': 'assistant', 'content': ''}HTTPConnectionPool(host='127.0.0.1', port=5000): Max retries exceeded with url: /add_message (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x3618a6090>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2025-06-14 14:57:00,090 - src.robot - DEBUG - [
+    {
+        "role": "system",
+        "content": "# 角色定义\n你是阿雅，你性格开朗、活泼，善于交流。你的回复应该简短、友好、口语化强一些，回复禁止出现表情符号。\n\n#以下是历史对话摘要:\n\n\n# 回复要求\n1. 你的回复应该简短、友好、口语化强一些，回复禁止出现表情符号。\n2. 如果需要调用工具，先不要回答，调用工具后再回答，直接输出工具名和参数，输出格式```json\n{\"function_name\":\"\", \"args\":{}}```"
+    },
+    {
+        "role": "user",
+        "content": "撰写一篇关于人工智能发展的文章。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "这个不像什。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "でそろ。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "や么。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "我我跟幼说，我跟妈妈说了。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "じよよ。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "回去玩几天。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "うか。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "那。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "这么喜欢这个，你就舅带着你玩几天不行了。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "あ？"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "吃好吃的玩好玩的。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "你さ啊。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    }
+]
+2025-06-14 14:57:00,119 - src.vad - DEBUG - VAD output: {'start': 2667552}
+2025-06-14 14:57:08,882 - src.vad - DEBUG - VAD output: {'end': 2805216}
+2025-06-14 14:57:08,882 - src.robot - DEBUG - 语音包的长度：275
+2025-06-14 14:57:08,884 - src.asr - INFO - ASR识别文件录音保存到：tmp/asr-2025-06-14@96234b7a8c254fabb8fc10b973fe7960.wav
+2025-06-14 14:57:09,041 - src.vad - DEBUG - VAD output: {'start': 2810400}
+2025-06-14 14:57:09,254 - src.asr - INFO - 识别文本: 没有妈妈在你起在玩，没人管你看手机，没人管你看玩多长时间，没人管你晚上黑的黑的天的。
+2025-06-14 14:57:09,254 - src.robot - DEBUG - ASR识别结果: 没有妈妈在你起在玩，没人管你看手机，没人管你看玩多长时间，没人管你晚上黑的黑的天的。
+2025-06-14 14:57:09,255 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:5000
+2025-06-14 14:57:09,255 - __main__ - ERROR - callback error：{'role': 'user', 'content': '没有妈妈在你起在玩，没人管你看手机，没人管你看玩多长时间，没人管你晚上黑的黑的天的。'}HTTPConnectionPool(host='127.0.0.1', port=5000): Max retries exceeded with url: /add_message (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x3618a61b0>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2025-06-14 14:57:09,256 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:11434
+2025-06-14 14:57:09,256 - src.llm - ERROR - Error in response generation: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/chat (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x3618a6fc0>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2025-06-14 14:57:09,256 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:5000
+2025-06-14 14:57:09,256 - __main__ - ERROR - callback error：{'role': 'assistant', 'content': ''}HTTPConnectionPool(host='127.0.0.1', port=5000): Max retries exceeded with url: /add_message (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x3618a4560>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2025-06-14 14:57:09,257 - src.robot - DEBUG - [
+    {
+        "role": "system",
+        "content": "# 角色定义\n你是阿雅，你性格开朗、活泼，善于交流。你的回复应该简短、友好、口语化强一些，回复禁止出现表情符号。\n\n#以下是历史对话摘要:\n\n\n# 回复要求\n1. 你的回复应该简短、友好、口语化强一些，回复禁止出现表情符号。\n2. 如果需要调用工具，先不要回答，调用工具后再回答，直接输出工具名和参数，输出格式```json\n{\"function_name\":\"\", \"args\":{}}```"
+    },
+    {
+        "role": "user",
+        "content": "撰写一篇关于人工智能发展的文章。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "这个不像什。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "でそろ。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "や么。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "我我跟幼说，我跟妈妈说了。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "じよよ。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "回去玩几天。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "うか。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "那。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "这么喜欢这个，你就舅带着你玩几天不行了。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "あ？"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "吃好吃的玩好玩的。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "你さ啊。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "没有妈妈在你起在玩，没人管你看手机，没人管你看玩多长时间，没人管你晚上黑的黑的天的。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    }
+]
+2025-06-14 14:57:11,859 - src.vad - DEBUG - VAD output: {'end': 2852832}
+2025-06-14 14:57:11,859 - src.robot - DEBUG - 语音包的长度：89
+2025-06-14 14:57:11,860 - src.asr - INFO - ASR识别文件录音保存到：tmp/asr-2025-06-14@e86ec680729c4ea08fd8a4f749cbbf8a.wav
+2025-06-14 14:57:12,069 - src.asr - INFO - 识别文本: 也不用管你愿你玩到啥时候玩玩的好就好。
+2025-06-14 14:57:12,069 - src.robot - DEBUG - ASR识别结果: 也不用管你愿你玩到啥时候玩玩的好就好。
+2025-06-14 14:57:12,069 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:5000
+2025-06-14 14:57:12,069 - __main__ - ERROR - callback error：{'role': 'user', 'content': '也不用管你愿你玩到啥时候玩玩的好就好。'}HTTPConnectionPool(host='127.0.0.1', port=5000): Max retries exceeded with url: /add_message (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x36188eba0>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2025-06-14 14:57:12,070 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:11434
+2025-06-14 14:57:12,070 - src.llm - ERROR - Error in response generation: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/chat (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x36188e330>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2025-06-14 14:57:12,071 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:5000
+2025-06-14 14:57:12,071 - __main__ - ERROR - callback error：{'role': 'assistant', 'content': ''}HTTPConnectionPool(host='127.0.0.1', port=5000): Max retries exceeded with url: /add_message (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x3618a7530>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2025-06-14 14:57:12,071 - src.robot - DEBUG - [
+    {
+        "role": "system",
+        "content": "# 角色定义\n你是阿雅，你性格开朗、活泼，善于交流。你的回复应该简短、友好、口语化强一些，回复禁止出现表情符号。\n\n#以下是历史对话摘要:\n\n\n# 回复要求\n1. 你的回复应该简短、友好、口语化强一些，回复禁止出现表情符号。\n2. 如果需要调用工具，先不要回答，调用工具后再回答，直接输出工具名和参数，输出格式```json\n{\"function_name\":\"\", \"args\":{}}```"
+    },
+    {
+        "role": "user",
+        "content": "撰写一篇关于人工智能发展的文章。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "这个不像什。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "でそろ。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "や么。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "我我跟幼说，我跟妈妈说了。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "じよよ。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "回去玩几天。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "うか。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "那。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "这么喜欢这个，你就舅带着你玩几天不行了。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "あ？"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "吃好吃的玩好玩的。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "你さ啊。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "没有妈妈在你起在玩，没人管你看手机，没人管你看玩多长时间，没人管你晚上黑的黑的天的。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "也不用管你愿你玩到啥时候玩玩的好就好。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    }
+]
+2025-06-14 14:57:12,279 - src.vad - DEBUG - VAD output: {'start': 2862112}
+2025-06-14 14:57:13,099 - src.vad - DEBUG - VAD output: {'end': 2872800}
+2025-06-14 14:57:13,099 - src.robot - DEBUG - 语音包的长度：27
+2025-06-14 14:57:13,100 - src.asr - INFO - ASR识别文件录音保存到：tmp/asr-2025-06-14@e4e6e2ac06864e9f835df533c3f501c7.wav
+2025-06-14 14:57:13,261 - src.asr - INFO - 识别文本: Noう。
+2025-06-14 14:57:13,261 - src.robot - DEBUG - ASR识别结果: Noう。
+2025-06-14 14:57:13,262 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:5000
+2025-06-14 14:57:13,262 - __main__ - ERROR - callback error：{'role': 'user', 'content': 'Noう。'}HTTPConnectionPool(host='127.0.0.1', port=5000): Max retries exceeded with url: /add_message (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x3618a45f0>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2025-06-14 14:57:13,262 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:11434
+2025-06-14 14:57:13,263 - src.llm - ERROR - Error in response generation: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/chat (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x3618a6330>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2025-06-14 14:57:13,263 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:5000
+2025-06-14 14:57:13,263 - __main__ - ERROR - callback error：{'role': 'assistant', 'content': ''}HTTPConnectionPool(host='127.0.0.1', port=5000): Max retries exceeded with url: /add_message (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x36188ecf0>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2025-06-14 14:57:13,264 - src.robot - DEBUG - [
+    {
+        "role": "system",
+        "content": "# 角色定义\n你是阿雅，你性格开朗、活泼，善于交流。你的回复应该简短、友好、口语化强一些，回复禁止出现表情符号。\n\n#以下是历史对话摘要:\n\n\n# 回复要求\n1. 你的回复应该简短、友好、口语化强一些，回复禁止出现表情符号。\n2. 如果需要调用工具，先不要回答，调用工具后再回答，直接输出工具名和参数，输出格式```json\n{\"function_name\":\"\", \"args\":{}}```"
+    },
+    {
+        "role": "user",
+        "content": "撰写一篇关于人工智能发展的文章。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "这个不像什。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "でそろ。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "や么。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "我我跟幼说，我跟妈妈说了。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "じよよ。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "回去玩几天。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "うか。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "那。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "这么喜欢这个，你就舅带着你玩几天不行了。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "あ？"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "吃好吃的玩好玩的。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "你さ啊。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "没有妈妈在你起在玩，没人管你看手机，没人管你看玩多长时间，没人管你晚上黑的黑的天的。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "也不用管你愿你玩到啥时候玩玩的好就好。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "Noう。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    }
+]
+2025-06-14 14:57:14,065 - src.vad - DEBUG - VAD output: {'start': 2890784}
+2025-06-14 14:57:14,704 - src.vad - DEBUG - VAD output: {'end': 2898400}
+2025-06-14 14:57:14,704 - src.robot - DEBUG - 语音包的长度：21
+2025-06-14 14:57:14,704 - src.asr - INFO - ASR识别文件录音保存到：tmp/asr-2025-06-14@2b28fbd755a346ba820cd24341d8ae57.wav
+2025-06-14 14:57:14,957 - src.asr - INFO - 识别文本: 是だ。
+2025-06-14 14:57:14,957 - src.robot - DEBUG - ASR识别结果: 是だ。
+2025-06-14 14:57:14,958 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:5000
+2025-06-14 14:57:14,958 - __main__ - ERROR - callback error：{'role': 'user', 'content': '是だ。'}HTTPConnectionPool(host='127.0.0.1', port=5000): Max retries exceeded with url: /add_message (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x3618a5bb0>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2025-06-14 14:57:14,958 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:11434
+2025-06-14 14:57:14,959 - src.llm - ERROR - Error in response generation: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/chat (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x3618a5a30>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2025-06-14 14:57:14,959 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:5000
+2025-06-14 14:57:14,959 - __main__ - ERROR - callback error：{'role': 'assistant', 'content': ''}HTTPConnectionPool(host='127.0.0.1', port=5000): Max retries exceeded with url: /add_message (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x3618a74a0>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2025-06-14 14:57:14,960 - src.robot - DEBUG - [
+    {
+        "role": "system",
+        "content": "# 角色定义\n你是阿雅，你性格开朗、活泼，善于交流。你的回复应该简短、友好、口语化强一些，回复禁止出现表情符号。\n\n#以下是历史对话摘要:\n\n\n# 回复要求\n1. 你的回复应该简短、友好、口语化强一些，回复禁止出现表情符号。\n2. 如果需要调用工具，先不要回答，调用工具后再回答，直接输出工具名和参数，输出格式```json\n{\"function_name\":\"\", \"args\":{}}```"
+    },
+    {
+        "role": "user",
+        "content": "撰写一篇关于人工智能发展的文章。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "这个不像什。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "でそろ。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "や么。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "我我跟幼说，我跟妈妈说了。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "じよよ。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "回去玩几天。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "うか。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "那。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "这么喜欢这个，你就舅带着你玩几天不行了。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "あ？"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "吃好吃的玩好玩的。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "你さ啊。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "没有妈妈在你起在玩，没人管你看手机，没人管你看玩多长时间，没人管你晚上黑的黑的天的。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "也不用管你愿你玩到啥时候玩玩的好就好。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "Noう。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "是だ。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    }
+]
+2025-06-14 14:57:17,003 - src.vad - DEBUG - VAD output: {'start': 2937888}
+2025-06-14 14:57:17,621 - src.vad - DEBUG - VAD output: {'end': 2944992}
+2025-06-14 14:57:17,621 - src.robot - DEBUG - 语音包的长度：20
+2025-06-14 14:57:17,621 - src.asr - INFO - ASR识别文件录音保存到：tmp/asr-2025-06-14@f6cae3049e694dc4a2e50e79e2d0b619.wav
+2025-06-14 14:57:17,882 - src.asr - INFO - 识别文本: 是啥。
+2025-06-14 14:57:17,882 - src.robot - DEBUG - ASR识别结果: 是啥。
+2025-06-14 14:57:17,883 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:5000
+2025-06-14 14:57:17,883 - __main__ - ERROR - callback error：{'role': 'user', 'content': '是啥。'}HTTPConnectionPool(host='127.0.0.1', port=5000): Max retries exceeded with url: /add_message (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x3618a6b10>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2025-06-14 14:57:17,884 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:11434
+2025-06-14 14:57:17,885 - src.llm - ERROR - Error in response generation: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/chat (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x36188f560>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2025-06-14 14:57:17,885 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:5000
+2025-06-14 14:57:17,885 - __main__ - ERROR - callback error：{'role': 'assistant', 'content': ''}HTTPConnectionPool(host='127.0.0.1', port=5000): Max retries exceeded with url: /add_message (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x3618a6b40>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2025-06-14 14:57:17,886 - src.robot - DEBUG - [
+    {
+        "role": "system",
+        "content": "# 角色定义\n你是阿雅，你性格开朗、活泼，善于交流。你的回复应该简短、友好、口语化强一些，回复禁止出现表情符号。\n\n#以下是历史对话摘要:\n\n\n# 回复要求\n1. 你的回复应该简短、友好、口语化强一些，回复禁止出现表情符号。\n2. 如果需要调用工具，先不要回答，调用工具后再回答，直接输出工具名和参数，输出格式```json\n{\"function_name\":\"\", \"args\":{}}```"
+    },
+    {
+        "role": "user",
+        "content": "撰写一篇关于人工智能发展的文章。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "这个不像什。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "でそろ。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "や么。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "我我跟幼说，我跟妈妈说了。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "じよよ。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "回去玩几天。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "うか。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "那。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "这么喜欢这个，你就舅带着你玩几天不行了。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "あ？"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "吃好吃的玩好玩的。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "你さ啊。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "没有妈妈在你起在玩，没人管你看手机，没人管你看玩多长时间，没人管你晚上黑的黑的天的。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "也不用管你愿你玩到啥时候玩玩的好就好。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "Noう。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "是だ。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "是啥。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    }
+]
+2025-06-14 14:57:19,981 - src.vad - DEBUG - VAD output: {'start': 2985504}
+2025-06-14 14:57:21,263 - src.vad - DEBUG - VAD output: {'end': 3003360}
+2025-06-14 14:57:21,263 - src.robot - DEBUG - 语音包的长度：41
+2025-06-14 14:57:21,263 - src.asr - INFO - ASR识别文件录音保存到：tmp/asr-2025-06-14@204243d0c242479ab97ced458127332c.wav
+2025-06-14 14:57:21,510 - src.asr - INFO - 识别文本: 不好呀，这样不好吗？
+2025-06-14 14:57:21,510 - src.robot - DEBUG - ASR识别结果: 不好呀，这样不好吗？
+2025-06-14 14:57:21,510 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:5000
+2025-06-14 14:57:21,510 - __main__ - ERROR - callback error：{'role': 'user', 'content': '不好呀，这样不好吗？'}HTTPConnectionPool(host='127.0.0.1', port=5000): Max retries exceeded with url: /add_message (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x3618a6ed0>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2025-06-14 14:57:21,511 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:11434
+2025-06-14 14:57:21,511 - src.llm - ERROR - Error in response generation: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/chat (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x3618a46e0>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2025-06-14 14:57:21,512 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:5000
+2025-06-14 14:57:21,512 - __main__ - ERROR - callback error：{'role': 'assistant', 'content': ''}HTTPConnectionPool(host='127.0.0.1', port=5000): Max retries exceeded with url: /add_message (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x36184cf80>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2025-06-14 14:57:21,512 - src.robot - DEBUG - [
+    {
+        "role": "system",
+        "content": "# 角色定义\n你是阿雅，你性格开朗、活泼，善于交流。你的回复应该简短、友好、口语化强一些，回复禁止出现表情符号。\n\n#以下是历史对话摘要:\n\n\n# 回复要求\n1. 你的回复应该简短、友好、口语化强一些，回复禁止出现表情符号。\n2. 如果需要调用工具，先不要回答，调用工具后再回答，直接输出工具名和参数，输出格式```json\n{\"function_name\":\"\", \"args\":{}}```"
+    },
+    {
+        "role": "user",
+        "content": "撰写一篇关于人工智能发展的文章。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "这个不像什。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "でそろ。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "や么。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "我我跟幼说，我跟妈妈说了。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "じよよ。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "回去玩几天。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "うか。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "那。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "这么喜欢这个，你就舅带着你玩几天不行了。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "あ？"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "吃好吃的玩好玩的。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "你さ啊。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "没有妈妈在你起在玩，没人管你看手机，没人管你看玩多长时间，没人管你晚上黑的黑的天的。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "也不用管你愿你玩到啥时候玩玩的好就好。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "Noう。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "是だ。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "是啥。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "不好呀，这样不好吗？"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    }
+]
+2025-06-14 14:57:22,319 - src.vad - DEBUG - VAD output: {'start': 3022880}
+2025-06-14 14:57:22,900 - src.vad - DEBUG - VAD output: {'end': 3029472}
+2025-06-14 14:57:22,900 - src.robot - DEBUG - 语音包的长度：19
+2025-06-14 14:57:22,900 - src.asr - INFO - ASR识别文件录音保存到：tmp/asr-2025-06-14@00156a36e3dd40a6bbd2feb4aa3693ce.wav
+2025-06-14 14:57:23,165 - src.asr - INFO - 识别文本: 不要。
+2025-06-14 14:57:23,165 - src.robot - DEBUG - ASR识别结果: 不要。
+2025-06-14 14:57:23,166 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:5000
+2025-06-14 14:57:23,166 - __main__ - ERROR - callback error：{'role': 'user', 'content': '不要。'}HTTPConnectionPool(host='127.0.0.1', port=5000): Max retries exceeded with url: /add_message (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x3618a5f10>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2025-06-14 14:57:23,167 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:11434
+2025-06-14 14:57:23,167 - src.llm - ERROR - Error in response generation: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/chat (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x3618a5940>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2025-06-14 14:57:23,168 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:5000
+2025-06-14 14:57:23,168 - __main__ - ERROR - callback error：{'role': 'assistant', 'content': ''}HTTPConnectionPool(host='127.0.0.1', port=5000): Max retries exceeded with url: /add_message (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x3618a51c0>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2025-06-14 14:57:23,168 - src.robot - DEBUG - [
+    {
+        "role": "system",
+        "content": "# 角色定义\n你是阿雅，你性格开朗、活泼，善于交流。你的回复应该简短、友好、口语化强一些，回复禁止出现表情符号。\n\n#以下是历史对话摘要:\n\n\n# 回复要求\n1. 你的回复应该简短、友好、口语化强一些，回复禁止出现表情符号。\n2. 如果需要调用工具，先不要回答，调用工具后再回答，直接输出工具名和参数，输出格式```json\n{\"function_name\":\"\", \"args\":{}}```"
+    },
+    {
+        "role": "user",
+        "content": "撰写一篇关于人工智能发展的文章。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "这个不像什。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "でそろ。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "や么。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "我我跟幼说，我跟妈妈说了。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "じよよ。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "回去玩几天。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "うか。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "那。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "这么喜欢这个，你就舅带着你玩几天不行了。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "あ？"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "吃好吃的玩好玩的。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "你さ啊。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "没有妈妈在你起在玩，没人管你看手机，没人管你看玩多长时间，没人管你晚上黑的黑的天的。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "也不用管你愿你玩到啥时候玩玩的好就好。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "Noう。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "是だ。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "是啥。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "不好呀，这样不好吗？"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "不要。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    }
+]
+2025-06-14 14:57:23,564 - src.vad - DEBUG - VAD output: {'start': 3042848}
+2025-06-14 14:57:24,199 - src.vad - DEBUG - VAD output: {'end': 3050464}
+2025-06-14 14:57:24,199 - src.robot - DEBUG - 语音包的长度：21
+2025-06-14 14:57:24,200 - src.asr - INFO - ASR识别文件录音保存到：tmp/asr-2025-06-14@d064f449b1b34f1c9436e02eeae5e246.wav
+2025-06-14 14:57:24,480 - src.asr - INFO - 识别文本: そ。
+2025-06-14 14:57:24,480 - src.robot - DEBUG - ASR识别结果: そ。
+2025-06-14 14:57:24,481 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:5000
+2025-06-14 14:57:24,481 - __main__ - ERROR - callback error：{'role': 'user', 'content': 'そ。'}HTTPConnectionPool(host='127.0.0.1', port=5000): Max retries exceeded with url: /add_message (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x3618a6870>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2025-06-14 14:57:24,482 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:11434
+2025-06-14 14:57:24,482 - src.llm - ERROR - Error in response generation: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/chat (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x32454b530>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2025-06-14 14:57:24,482 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:5000
+2025-06-14 14:57:24,483 - __main__ - ERROR - callback error：{'role': 'assistant', 'content': ''}HTTPConnectionPool(host='127.0.0.1', port=5000): Max retries exceeded with url: /add_message (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x3618a5cd0>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2025-06-14 14:57:24,483 - src.robot - DEBUG - [
+    {
+        "role": "system",
+        "content": "# 角色定义\n你是阿雅，你性格开朗、活泼，善于交流。你的回复应该简短、友好、口语化强一些，回复禁止出现表情符号。\n\n#以下是历史对话摘要:\n\n\n# 回复要求\n1. 你的回复应该简短、友好、口语化强一些，回复禁止出现表情符号。\n2. 如果需要调用工具，先不要回答，调用工具后再回答，直接输出工具名和参数，输出格式```json\n{\"function_name\":\"\", \"args\":{}}```"
+    },
+    {
+        "role": "user",
+        "content": "撰写一篇关于人工智能发展的文章。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "这个不像什。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "でそろ。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "や么。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "我我跟幼说，我跟妈妈说了。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "じよよ。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "回去玩几天。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "うか。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "那。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "这么喜欢这个，你就舅带着你玩几天不行了。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "あ？"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "吃好吃的玩好玩的。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "你さ啊。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "没有妈妈在你起在玩，没人管你看手机，没人管你看玩多长时间，没人管你晚上黑的黑的天的。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "也不用管你愿你玩到啥时候玩玩的好就好。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "Noう。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "是だ。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "是啥。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "不好呀，这样不好吗？"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "不要。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "そ。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    }
+]
+2025-06-14 14:57:25,840 - src.vad - DEBUG - VAD output: {'start': 3079200}
+2025-06-14 14:57:26,642 - src.vad - DEBUG - VAD output: {'end': 3089376}
+2025-06-14 14:57:26,642 - src.robot - DEBUG - 语音包的长度：26
+2025-06-14 14:57:26,642 - src.asr - INFO - ASR识别文件录音保存到：tmp/asr-2025-06-14@efbce39d68f448569584ed4fde19e33b.wav
+2025-06-14 14:57:26,889 - src.asr - INFO - 识别文本: 好不好呀。
+2025-06-14 14:57:26,889 - src.robot - DEBUG - ASR识别结果: 好不好呀。
+2025-06-14 14:57:26,889 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:5000
+2025-06-14 14:57:26,890 - __main__ - ERROR - callback error：{'role': 'user', 'content': '好不好呀。'}HTTPConnectionPool(host='127.0.0.1', port=5000): Max retries exceeded with url: /add_message (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x3618a5610>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2025-06-14 14:57:26,891 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:11434
+2025-06-14 14:57:26,891 - src.llm - ERROR - Error in response generation: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/chat (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x3618a72f0>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2025-06-14 14:57:26,891 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:5000
+2025-06-14 14:57:26,892 - __main__ - ERROR - callback error：{'role': 'assistant', 'content': ''}HTTPConnectionPool(host='127.0.0.1', port=5000): Max retries exceeded with url: /add_message (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x36188da90>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2025-06-14 14:57:26,892 - src.robot - DEBUG - [
+    {
+        "role": "system",
+        "content": "# 角色定义\n你是阿雅，你性格开朗、活泼，善于交流。你的回复应该简短、友好、口语化强一些，回复禁止出现表情符号。\n\n#以下是历史对话摘要:\n\n\n# 回复要求\n1. 你的回复应该简短、友好、口语化强一些，回复禁止出现表情符号。\n2. 如果需要调用工具，先不要回答，调用工具后再回答，直接输出工具名和参数，输出格式```json\n{\"function_name\":\"\", \"args\":{}}```"
+    },
+    {
+        "role": "user",
+        "content": "撰写一篇关于人工智能发展的文章。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "这个不像什。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "でそろ。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "や么。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "我我跟幼说，我跟妈妈说了。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "じよよ。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "回去玩几天。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "うか。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "那。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "这么喜欢这个，你就舅带着你玩几天不行了。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "あ？"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "吃好吃的玩好玩的。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "你さ啊。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "没有妈妈在你起在玩，没人管你看手机，没人管你看玩多长时间，没人管你晚上黑的黑的天的。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "也不用管你愿你玩到啥时候玩玩的好就好。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "Noう。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "是だ。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "是啥。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "不好呀，这样不好吗？"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "不要。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "そ。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "好不好呀。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    }
+]
+2025-06-14 14:57:27,540 - src.vad - DEBUG - VAD output: {'start': 3106336}
+2025-06-14 14:57:28,283 - src.vad - DEBUG - VAD output: {'end': 3115488}
+2025-06-14 14:57:28,283 - src.robot - DEBUG - 语音包的长度：24
+2025-06-14 14:57:28,284 - src.asr - INFO - ASR识别文件录音保存到：tmp/asr-2025-06-14@78555ca15b42413da58db8dd8482a698.wav
+2025-06-14 14:57:28,534 - src.asr - INFO - 识别文本: 差多少呀。
+2025-06-14 14:57:28,534 - src.robot - DEBUG - ASR识别结果: 差多少呀。
+2025-06-14 14:57:28,535 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:5000
+2025-06-14 14:57:28,535 - __main__ - ERROR - callback error：{'role': 'user', 'content': '差多少呀。'}HTTPConnectionPool(host='127.0.0.1', port=5000): Max retries exceeded with url: /add_message (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x3618a6660>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2025-06-14 14:57:28,535 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:11434
+2025-06-14 14:57:28,536 - src.llm - ERROR - Error in response generation: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/chat (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x3618a7320>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2025-06-14 14:57:28,536 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:5000
+2025-06-14 14:57:28,536 - __main__ - ERROR - callback error：{'role': 'assistant', 'content': ''}HTTPConnectionPool(host='127.0.0.1', port=5000): Max retries exceeded with url: /add_message (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x3618a51c0>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2025-06-14 14:57:28,537 - src.robot - DEBUG - [
+    {
+        "role": "system",
+        "content": "# 角色定义\n你是阿雅，你性格开朗、活泼，善于交流。你的回复应该简短、友好、口语化强一些，回复禁止出现表情符号。\n\n#以下是历史对话摘要:\n\n\n# 回复要求\n1. 你的回复应该简短、友好、口语化强一些，回复禁止出现表情符号。\n2. 如果需要调用工具，先不要回答，调用工具后再回答，直接输出工具名和参数，输出格式```json\n{\"function_name\":\"\", \"args\":{}}```"
+    },
+    {
+        "role": "user",
+        "content": "撰写一篇关于人工智能发展的文章。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "这个不像什。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "でそろ。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "や么。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "我我跟幼说，我跟妈妈说了。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "じよよ。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "回去玩几天。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "うか。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "那。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "这么喜欢这个，你就舅带着你玩几天不行了。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "あ？"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "吃好吃的玩好玩的。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "你さ啊。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "没有妈妈在你起在玩，没人管你看手机，没人管你看玩多长时间，没人管你晚上黑的黑的天的。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "也不用管你愿你玩到啥时候玩玩的好就好。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "Noう。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "是だ。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "是啥。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "不好呀，这样不好吗？"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "不要。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "そ。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "好不好呀。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "差多少呀。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    }
+]
+2025-06-14 14:57:29,524 - src.vad - DEBUG - VAD output: {'start': 3138080}
+2025-06-14 14:57:29,842 - src.vad - DEBUG - VAD output: {'end': 3140576}
+2025-06-14 14:57:29,842 - src.robot - DEBUG - 语音包的长度：11
+2025-06-14 14:57:29,843 - src.asr - INFO - ASR识别文件录音保存到：tmp/asr-2025-06-14@b264d4977e074ad6ab2bdb9986e02664.wav
+2025-06-14 14:57:30,112 - src.asr - INFO - 识别文本: で？
+2025-06-14 14:57:30,112 - src.robot - DEBUG - ASR识别结果: で？
+2025-06-14 14:57:30,113 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:5000
+2025-06-14 14:57:30,113 - __main__ - ERROR - callback error：{'role': 'user', 'content': 'で？'}HTTPConnectionPool(host='127.0.0.1', port=5000): Max retries exceeded with url: /add_message (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x3618a7b60>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2025-06-14 14:57:30,114 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:11434
+2025-06-14 14:57:30,114 - src.llm - ERROR - Error in response generation: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/chat (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x32fc72150>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2025-06-14 14:57:30,114 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:5000
+2025-06-14 14:57:30,114 - __main__ - ERROR - callback error：{'role': 'assistant', 'content': ''}HTTPConnectionPool(host='127.0.0.1', port=5000): Max retries exceeded with url: /add_message (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x3618a5a90>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2025-06-14 14:57:30,115 - src.robot - DEBUG - [
+    {
+        "role": "system",
+        "content": "# 角色定义\n你是阿雅，你性格开朗、活泼，善于交流。你的回复应该简短、友好、口语化强一些，回复禁止出现表情符号。\n\n#以下是历史对话摘要:\n\n\n# 回复要求\n1. 你的回复应该简短、友好、口语化强一些，回复禁止出现表情符号。\n2. 如果需要调用工具，先不要回答，调用工具后再回答，直接输出工具名和参数，输出格式```json\n{\"function_name\":\"\", \"args\":{}}```"
+    },
+    {
+        "role": "user",
+        "content": "撰写一篇关于人工智能发展的文章。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "这个不像什。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "でそろ。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "や么。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "我我跟幼说，我跟妈妈说了。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "じよよ。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "回去玩几天。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "うか。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "那。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "这么喜欢这个，你就舅带着你玩几天不行了。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "あ？"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "吃好吃的玩好玩的。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "你さ啊。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "没有妈妈在你起在玩，没人管你看手机，没人管你看玩多长时间，没人管你晚上黑的黑的天的。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "也不用管你愿你玩到啥时候玩玩的好就好。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "Noう。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "是だ。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "是啥。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "不好呀，这样不好吗？"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "不要。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "そ。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "好不好呀。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "差多少呀。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "で？"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    }
+]
+2025-06-14 14:57:32,239 - src.vad - DEBUG - VAD output: {'start': 3181600}
+2025-06-14 14:57:33,163 - src.vad - DEBUG - VAD output: {'end': 3193824}
+2025-06-14 14:57:33,163 - src.robot - DEBUG - 语音包的长度：30
+2025-06-14 14:57:33,163 - src.asr - INFO - ASR识别文件录音保存到：tmp/asr-2025-06-14@63c73a5e92a1448798cbd62e17ae9935.wav
+2025-06-14 14:57:33,413 - src.asr - INFO - 识别文本: 为啥不好？
+2025-06-14 14:57:33,413 - src.robot - DEBUG - ASR识别结果: 为啥不好？
+2025-06-14 14:57:33,413 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:5000
+2025-06-14 14:57:33,414 - __main__ - ERROR - callback error：{'role': 'user', 'content': '为啥不好？'}HTTPConnectionPool(host='127.0.0.1', port=5000): Max retries exceeded with url: /add_message (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x3618a7170>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2025-06-14 14:57:33,414 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:11434
+2025-06-14 14:57:33,415 - src.llm - ERROR - Error in response generation: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/chat (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x3618a7ec0>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2025-06-14 14:57:33,415 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:5000
+2025-06-14 14:57:33,415 - __main__ - ERROR - callback error：{'role': 'assistant', 'content': ''}HTTPConnectionPool(host='127.0.0.1', port=5000): Max retries exceeded with url: /add_message (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x36188ef90>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2025-06-14 14:57:33,416 - src.robot - DEBUG - [
+    {
+        "role": "system",
+        "content": "# 角色定义\n你是阿雅，你性格开朗、活泼，善于交流。你的回复应该简短、友好、口语化强一些，回复禁止出现表情符号。\n\n#以下是历史对话摘要:\n\n\n# 回复要求\n1. 你的回复应该简短、友好、口语化强一些，回复禁止出现表情符号。\n2. 如果需要调用工具，先不要回答，调用工具后再回答，直接输出工具名和参数，输出格式```json\n{\"function_name\":\"\", \"args\":{}}```"
+    },
+    {
+        "role": "user",
+        "content": "撰写一篇关于人工智能发展的文章。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "这个不像什。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "でそろ。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "や么。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "我我跟幼说，我跟妈妈说了。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "じよよ。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "回去玩几天。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "うか。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "那。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "这么喜欢这个，你就舅带着你玩几天不行了。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "あ？"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "吃好吃的玩好玩的。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "你さ啊。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "没有妈妈在你起在玩，没人管你看手机，没人管你看玩多长时间，没人管你晚上黑的黑的天的。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "也不用管你愿你玩到啥时候玩玩的好就好。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "Noう。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "是だ。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "是啥。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "不好呀，这样不好吗？"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "不要。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "そ。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "好不好呀。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "差多少呀。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "で？"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "为啥不好？"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    }
+]
+2025-06-14 14:57:34,100 - src.vad - DEBUG - VAD output: {'start': 3211296}
+2025-06-14 14:57:36,825 - src.vad - DEBUG - VAD output: {'end': 3252192}
+2025-06-14 14:57:36,825 - src.robot - DEBUG - 语音包的长度：86
+2025-06-14 14:57:36,825 - src.asr - INFO - ASR识别文件录音保存到：tmp/asr-2025-06-14@9bea64331bf7419fbd55e19e754fe14a.wav
+2025-06-14 14:57:37,079 - src.asr - INFO - 识别文本: 你就你不每天都做这样吗？
+2025-06-14 14:57:37,079 - src.robot - DEBUG - ASR识别结果: 你就你不每天都做这样吗？
+2025-06-14 14:57:37,080 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:5000
+2025-06-14 14:57:37,080 - __main__ - ERROR - callback error：{'role': 'user', 'content': '你就你不每天都做这样吗？'}HTTPConnectionPool(host='127.0.0.1', port=5000): Max retries exceeded with url: /add_message (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x3618a4530>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2025-06-14 14:57:37,081 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:11434
+2025-06-14 14:57:37,081 - src.llm - ERROR - Error in response generation: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/chat (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x3618a55e0>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2025-06-14 14:57:37,082 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:5000
+2025-06-14 14:57:37,082 - __main__ - ERROR - callback error：{'role': 'assistant', 'content': ''}HTTPConnectionPool(host='127.0.0.1', port=5000): Max retries exceeded with url: /add_message (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x3618a5730>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2025-06-14 14:57:37,083 - src.robot - DEBUG - [
+    {
+        "role": "system",
+        "content": "# 角色定义\n你是阿雅，你性格开朗、活泼，善于交流。你的回复应该简短、友好、口语化强一些，回复禁止出现表情符号。\n\n#以下是历史对话摘要:\n\n\n# 回复要求\n1. 你的回复应该简短、友好、口语化强一些，回复禁止出现表情符号。\n2. 如果需要调用工具，先不要回答，调用工具后再回答，直接输出工具名和参数，输出格式```json\n{\"function_name\":\"\", \"args\":{}}```"
+    },
+    {
+        "role": "user",
+        "content": "撰写一篇关于人工智能发展的文章。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "这个不像什。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "でそろ。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "や么。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "我我跟幼说，我跟妈妈说了。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "じよよ。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "回去玩几天。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "うか。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "那。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "这么喜欢这个，你就舅带着你玩几天不行了。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "あ？"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "吃好吃的玩好玩的。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "你さ啊。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "没有妈妈在你起在玩，没人管你看手机，没人管你看玩多长时间，没人管你晚上黑的黑的天的。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "也不用管你愿你玩到啥时候玩玩的好就好。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "Noう。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "是だ。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "是啥。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "不好呀，这样不好吗？"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "不要。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "そ。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "好不好呀。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "差多少呀。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "で？"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "为啥不好？"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "你就你不每天都做这样吗？"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    }
+]
+2025-06-14 14:57:37,203 - src.vad - DEBUG - VAD output: {'start': 3260960}
+2025-06-14 14:57:38,802 - src.vad - DEBUG - VAD output: {'end': 3283936}
+2025-06-14 14:57:38,802 - src.robot - DEBUG - 语音包的长度：51
+2025-06-14 14:57:38,802 - src.asr - INFO - ASR识别文件录音保存到：tmp/asr-2025-06-14@480d4d61dd764db48936872e4adb1c69.wav
+2025-06-14 14:57:39,039 - src.asr - INFO - 识别文本: 出去玩不想回来。
+2025-06-14 14:57:39,039 - src.robot - DEBUG - ASR识别结果: 出去玩不想回来。
+2025-06-14 14:57:39,040 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:5000
+2025-06-14 14:57:39,040 - __main__ - ERROR - callback error：{'role': 'user', 'content': '出去玩不想回来。'}HTTPConnectionPool(host='127.0.0.1', port=5000): Max retries exceeded with url: /add_message (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x3618a6810>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2025-06-14 14:57:39,040 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:11434
+2025-06-14 14:57:39,041 - src.llm - ERROR - Error in response generation: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/chat (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x3618a6e40>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2025-06-14 14:57:39,041 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:5000
+2025-06-14 14:57:39,041 - __main__ - ERROR - callback error：{'role': 'assistant', 'content': ''}HTTPConnectionPool(host='127.0.0.1', port=5000): Max retries exceeded with url: /add_message (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x3618a7920>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2025-06-14 14:57:39,042 - src.robot - DEBUG - [
+    {
+        "role": "system",
+        "content": "# 角色定义\n你是阿雅，你性格开朗、活泼，善于交流。你的回复应该简短、友好、口语化强一些，回复禁止出现表情符号。\n\n#以下是历史对话摘要:\n\n\n# 回复要求\n1. 你的回复应该简短、友好、口语化强一些，回复禁止出现表情符号。\n2. 如果需要调用工具，先不要回答，调用工具后再回答，直接输出工具名和参数，输出格式```json\n{\"function_name\":\"\", \"args\":{}}```"
+    },
+    {
+        "role": "user",
+        "content": "撰写一篇关于人工智能发展的文章。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "这个不像什。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "でそろ。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "や么。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "我我跟幼说，我跟妈妈说了。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "じよよ。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "回去玩几天。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "うか。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "那。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "这么喜欢这个，你就舅带着你玩几天不行了。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "あ？"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "吃好吃的玩好玩的。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "你さ啊。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "没有妈妈在你起在玩，没人管你看手机，没人管你看玩多长时间，没人管你晚上黑的黑的天的。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "也不用管你愿你玩到啥时候玩玩的好就好。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "Noう。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "是だ。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "是啥。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "不好呀，这样不好吗？"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "不要。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "そ。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "好不好呀。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "差多少呀。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "で？"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "为啥不好？"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "你就你不每天都做这样吗？"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "出去玩不想回来。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    }
+]
+2025-06-14 14:57:39,221 - src.vad - DEBUG - VAD output: {'start': 3293216}
+2025-06-14 14:57:40,882 - src.vad - DEBUG - VAD output: {'end': 3317216}
+2025-06-14 14:57:40,883 - src.robot - DEBUG - 语音包的长度：53
+2025-06-14 14:57:40,883 - src.asr - INFO - ASR识别文件录音保存到：tmp/asr-2025-06-14@bdd4cad1dd344583a7d7cef8c5cb1f69.wav
+2025-06-14 14:57:41,089 - src.asr - INFO - 识别文本: 在家里老好出去。
+2025-06-14 14:57:41,089 - src.robot - DEBUG - ASR识别结果: 在家里老好出去。
+2025-06-14 14:57:41,089 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:5000
+2025-06-14 14:57:41,090 - __main__ - ERROR - callback error：{'role': 'user', 'content': '在家里老好出去。'}HTTPConnectionPool(host='127.0.0.1', port=5000): Max retries exceeded with url: /add_message (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x3618a7410>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2025-06-14 14:57:41,090 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:11434
+2025-06-14 14:57:41,091 - src.llm - ERROR - Error in response generation: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/chat (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x3618a70e0>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2025-06-14 14:57:41,091 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:5000
+2025-06-14 14:57:41,091 - __main__ - ERROR - callback error：{'role': 'assistant', 'content': ''}HTTPConnectionPool(host='127.0.0.1', port=5000): Max retries exceeded with url: /add_message (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x36188f050>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2025-06-14 14:57:41,092 - src.robot - DEBUG - [
+    {
+        "role": "system",
+        "content": "# 角色定义\n你是阿雅，你性格开朗、活泼，善于交流。你的回复应该简短、友好、口语化强一些，回复禁止出现表情符号。\n\n#以下是历史对话摘要:\n\n\n# 回复要求\n1. 你的回复应该简短、友好、口语化强一些，回复禁止出现表情符号。\n2. 如果需要调用工具，先不要回答，调用工具后再回答，直接输出工具名和参数，输出格式```json\n{\"function_name\":\"\", \"args\":{}}```"
+    },
+    {
+        "role": "user",
+        "content": "撰写一篇关于人工智能发展的文章。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "这个不像什。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "でそろ。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "や么。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "我我跟幼说，我跟妈妈说了。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "じよよ。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "回去玩几天。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "うか。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "那。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "这么喜欢这个，你就舅带着你玩几天不行了。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "あ？"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "吃好吃的玩好玩的。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "你さ啊。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "没有妈妈在你起在玩，没人管你看手机，没人管你看玩多长时间，没人管你晚上黑的黑的天的。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "也不用管你愿你玩到啥时候玩玩的好就好。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "Noう。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "是だ。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "是啥。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "不好呀，这样不好吗？"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "不要。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "そ。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "好不好呀。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "差多少呀。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "で？"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "为啥不好？"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "你就你不每天都做这样吗？"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "出去玩不想回来。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "在家里老好出去。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    }
+]
+2025-06-14 14:57:41,419 - src.vad - DEBUG - VAD output: {'start': 3328544}
+2025-06-14 14:57:43,343 - src.vad - DEBUG - VAD output: {'end': 3356640}
+2025-06-14 14:57:43,343 - src.robot - DEBUG - 语音包的长度：61
+2025-06-14 14:57:43,343 - src.asr - INFO - ASR识别文件录音保存到：tmp/asr-2025-06-14@05feedb10f104404b1861e3a472c7476.wav
+2025-06-14 14:57:43,501 - src.vad - DEBUG - VAD output: {'start': 3361824}
+2025-06-14 14:57:43,598 - src.asr - INFO - 识别文本: 让我想吃好吃的让么想料。
+2025-06-14 14:57:43,598 - src.robot - DEBUG - ASR识别结果: 让我想吃好吃的让么想料。
+2025-06-14 14:57:43,598 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:5000
+2025-06-14 14:57:43,598 - __main__ - ERROR - callback error：{'role': 'user', 'content': '让我想吃好吃的让么想料。'}HTTPConnectionPool(host='127.0.0.1', port=5000): Max retries exceeded with url: /add_message (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x3618a51f0>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2025-06-14 14:57:43,599 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:11434
+2025-06-14 14:57:43,600 - src.llm - ERROR - Error in response generation: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/chat (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x3618a7a10>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2025-06-14 14:57:43,600 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:5000
+2025-06-14 14:57:43,600 - __main__ - ERROR - callback error：{'role': 'assistant', 'content': ''}HTTPConnectionPool(host='127.0.0.1', port=5000): Max retries exceeded with url: /add_message (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x3618a6c60>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2025-06-14 14:57:43,600 - src.robot - DEBUG - [
+    {
+        "role": "system",
+        "content": "# 角色定义\n你是阿雅，你性格开朗、活泼，善于交流。你的回复应该简短、友好、口语化强一些，回复禁止出现表情符号。\n\n#以下是历史对话摘要:\n\n\n# 回复要求\n1. 你的回复应该简短、友好、口语化强一些，回复禁止出现表情符号。\n2. 如果需要调用工具，先不要回答，调用工具后再回答，直接输出工具名和参数，输出格式```json\n{\"function_name\":\"\", \"args\":{}}```"
+    },
+    {
+        "role": "user",
+        "content": "撰写一篇关于人工智能发展的文章。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "这个不像什。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "でそろ。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "や么。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "我我跟幼说，我跟妈妈说了。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "じよよ。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "回去玩几天。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "うか。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "那。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "这么喜欢这个，你就舅带着你玩几天不行了。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "あ？"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "吃好吃的玩好玩的。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "你さ啊。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "没有妈妈在你起在玩，没人管你看手机，没人管你看玩多长时间，没人管你晚上黑的黑的天的。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "也不用管你愿你玩到啥时候玩玩的好就好。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "Noう。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "是だ。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "是啥。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "不好呀，这样不好吗？"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "不要。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "そ。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "好不好呀。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "差多少呀。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "で？"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "为啥不好？"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "你就你不每天都做这样吗？"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "出去玩不想回来。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "在家里老好出去。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "让我想吃好吃的让么想料。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    }
+]
+2025-06-14 14:57:44,403 - src.vad - DEBUG - VAD output: {'end': 3373536}
+2025-06-14 14:57:44,403 - src.robot - DEBUG - 语音包的长度：29
+2025-06-14 14:57:44,403 - src.asr - INFO - ASR识别文件录音保存到：tmp/asr-2025-06-14@e04629581ca0415ea933567d29dcd4f9.wav
+2025-06-14 14:57:44,657 - src.asr - INFO - 识别文本: どか。
+2025-06-14 14:57:44,657 - src.robot - DEBUG - ASR识别结果: どか。
+2025-06-14 14:57:44,658 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:5000
+2025-06-14 14:57:44,658 - __main__ - ERROR - callback error：{'role': 'user', 'content': 'どか。'}HTTPConnectionPool(host='127.0.0.1', port=5000): Max retries exceeded with url: /add_message (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x36188ed20>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2025-06-14 14:57:44,659 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:11434
+2025-06-14 14:57:44,659 - src.llm - ERROR - Error in response generation: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/chat (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x3618a68d0>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2025-06-14 14:57:44,659 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:5000
+2025-06-14 14:57:44,659 - __main__ - ERROR - callback error：{'role': 'assistant', 'content': ''}HTTPConnectionPool(host='127.0.0.1', port=5000): Max retries exceeded with url: /add_message (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x3618a7dd0>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2025-06-14 14:57:44,660 - src.robot - DEBUG - [
+    {
+        "role": "system",
+        "content": "# 角色定义\n你是阿雅，你性格开朗、活泼，善于交流。你的回复应该简短、友好、口语化强一些，回复禁止出现表情符号。\n\n#以下是历史对话摘要:\n\n\n# 回复要求\n1. 你的回复应该简短、友好、口语化强一些，回复禁止出现表情符号。\n2. 如果需要调用工具，先不要回答，调用工具后再回答，直接输出工具名和参数，输出格式```json\n{\"function_name\":\"\", \"args\":{}}```"
+    },
+    {
+        "role": "user",
+        "content": "撰写一篇关于人工智能发展的文章。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "这个不像什。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "でそろ。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "や么。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "我我跟幼说，我跟妈妈说了。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "じよよ。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "回去玩几天。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "うか。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "那。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "这么喜欢这个，你就舅带着你玩几天不行了。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "あ？"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "吃好吃的玩好玩的。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "你さ啊。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "没有妈妈在你起在玩，没人管你看手机，没人管你看玩多长时间，没人管你晚上黑的黑的天的。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "也不用管你愿你玩到啥时候玩玩的好就好。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "Noう。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "是だ。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "是啥。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "不好呀，这样不好吗？"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "不要。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "そ。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "好不好呀。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "差多少呀。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "で？"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "为啥不好？"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "你就你不每天都做这样吗？"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "出去玩不想回来。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "在家里老好出去。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "让我想吃好吃的让么想料。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "どか。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    }
+]
+2025-06-14 14:57:45,421 - src.vad - DEBUG - VAD output: {'start': 3392544}
+2025-06-14 14:57:46,582 - src.vad - DEBUG - VAD output: {'end': 3408352}
+2025-06-14 14:57:46,582 - src.robot - DEBUG - 语音包的长度：37
+2025-06-14 14:57:46,582 - src.asr - INFO - ASR识别文件录音保存到：tmp/asr-2025-06-14@6e7c3c846eac49a282b72233bef5c471.wav
+2025-06-14 14:57:46,815 - src.asr - INFO - 识别文本: 能满足。
+2025-06-14 14:57:46,815 - src.robot - DEBUG - ASR识别结果: 能满足。
+2025-06-14 14:57:46,815 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:5000
+2025-06-14 14:57:46,816 - __main__ - ERROR - callback error：{'role': 'user', 'content': '能满足。'}HTTPConnectionPool(host='127.0.0.1', port=5000): Max retries exceeded with url: /add_message (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x3618a5fd0>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2025-06-14 14:57:46,816 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:11434
+2025-06-14 14:57:46,816 - src.llm - ERROR - Error in response generation: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/chat (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x3618a7c80>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2025-06-14 14:57:46,817 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:5000
+2025-06-14 14:57:46,817 - __main__ - ERROR - callback error：{'role': 'assistant', 'content': ''}HTTPConnectionPool(host='127.0.0.1', port=5000): Max retries exceeded with url: /add_message (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x36188e900>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2025-06-14 14:57:46,817 - src.robot - DEBUG - [
+    {
+        "role": "system",
+        "content": "# 角色定义\n你是阿雅，你性格开朗、活泼，善于交流。你的回复应该简短、友好、口语化强一些，回复禁止出现表情符号。\n\n#以下是历史对话摘要:\n\n\n# 回复要求\n1. 你的回复应该简短、友好、口语化强一些，回复禁止出现表情符号。\n2. 如果需要调用工具，先不要回答，调用工具后再回答，直接输出工具名和参数，输出格式```json\n{\"function_name\":\"\", \"args\":{}}```"
+    },
+    {
+        "role": "user",
+        "content": "撰写一篇关于人工智能发展的文章。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "这个不像什。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "でそろ。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "や么。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "我我跟幼说，我跟妈妈说了。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "じよよ。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "回去玩几天。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "うか。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "那。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "这么喜欢这个，你就舅带着你玩几天不行了。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "あ？"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "吃好吃的玩好玩的。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "你さ啊。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "没有妈妈在你起在玩，没人管你看手机，没人管你看玩多长时间，没人管你晚上黑的黑的天的。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "也不用管你愿你玩到啥时候玩玩的好就好。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "Noう。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "是だ。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "是啥。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "不好呀，这样不好吗？"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "不要。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "そ。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "好不好呀。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "差多少呀。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "で？"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "为啥不好？"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "你就你不每天都做这样吗？"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "出去玩不想回来。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "在家里老好出去。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "让我想吃好吃的让么想料。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "どか。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "能满足。"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    }
+]
