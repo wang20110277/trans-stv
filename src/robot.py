@@ -130,8 +130,6 @@ class Robot(ABC):
         start = 0
         try:
             start_time = time.time()  # 记录开始时间
-            print("------"+self.dialogue.get_llm_dialogue())
-            print("------"+self.task_manager.get_functions())
             llm_responses = self.llm.response_call(self.dialogue.get_llm_dialogue(), functions_call=self.task_manager.get_functions())
         except Exception as e:
             #self.chat_lock = False
@@ -243,7 +241,6 @@ class Robot(ABC):
             # 提交 LLM 任务
             try:
                 start_time = time.time()  # 记录开始时间
-                print(self.dialogue.get_llm_dialogue())
                 llm_responses = self.llm.response(self.dialogue.get_llm_dialogue())
             except Exception as e:
                 self.chat_lock = False

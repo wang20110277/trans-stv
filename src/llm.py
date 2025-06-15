@@ -3,6 +3,7 @@ import json
 import re
 import requests
 import logging
+from langchain_experimental.llms.ollama_functions import OllamaFunctions
 
 logger = logging.getLogger(__name__)
 

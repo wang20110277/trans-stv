@@ -2,9 +2,9 @@
 
 [llm]
 api_type = 'ollama'
-model = "qwen2.5-coder:14b"
+model = "qwen2.5:14b"
 base_url = "http://localhost:11434/v1"
-api_key = "qwen2.5-coder"
+api_key = "ollama"
 max_tokens = 8192
 temperature = 0.0
 
@@ -12,7 +12,7 @@ temperature = 0.0
 api_type = 'ollama'
 model = "llava:latest"
 base_url = "http://localhost:11434/v1"
-api_key = "llava"
+api_key = "ollama"
 max_tokens = 4096
 temperature = 0.0
 
