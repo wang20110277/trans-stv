@@ -37,7 +37,7 @@ ASR:
 
 LLM:
   OllamaLLM:
-    model_name: qwen2.5:14b
+    model_name: deepseek-r1:14b
     url: http://localhost:11434
 
 TTS:
