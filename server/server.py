@@ -93,6 +93,11 @@ app.add_middleware(
 if os.path.exists("templates"):
     app.mount("/static", StaticFiles(directory="templates"), name="static")
 
+# 挂载assets目录以提供图片等静态资源
+assets_path = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "assets")
+if os.path.exists(assets_path):
+    app.mount("/assets", StaticFiles(directory=assets_path), name="assets")
+
 @app.get("/", response_class=HTMLResponse)
 async def get_index():
     """提供主页面"""

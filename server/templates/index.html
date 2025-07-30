@@ -101,6 +101,13 @@
             border-radius: 10px;
         }
         
+        #avatar-image {
+            max-width: 100%;
+            max-height: 100%;
+            object-fit: contain;
+            border-radius: 10px;
+        }
+        
         /* 右侧对话框区域 */
         .chat-container {
             flex: 2;
@@ -318,7 +325,8 @@
             <!-- 左侧数字人画面 -->
             <div class="avatar-panel">
                 <div id="video-container">
-                    <div>数字人画面区域</div>
+                    <img id="avatar-image" src="/assets/images/aya.png" alt="阿雅数字人" style="display: none;">
+                    <div id="initial-message">数字人画面区域</div>
                 </div>
             </div>
 
@@ -422,6 +430,9 @@
                             this.isConnected = true;
                             this.reconnectAttempts = 0; // 重置重连次数
                             this.updateConnectionStatus('connected', '已连接');
+                            
+                            // 连接建立后显示数字人图片并播放欢迎语音
+                            this.showAvatarAndGreet();
                         };
                         
                         this.socket.onmessage = (event) => {
@@ -505,6 +516,30 @@
                 toggleRecording() {
                     this.isRecording = !this.isRecording;
                     // 这里可以添加实际的录音逻辑
+                },
+                
+                showAvatarAndGreet() {
+                    // 显示数字人图片
+                    const avatarImage = document.getElementById('avatar-image');
+                    const initialMessage = document.getElementById('initial-message');
+                    
+                    if (avatarImage && initialMessage) {
+                        initialMessage.style.display = 'none';
+                        avatarImage.style.display = 'block';
+                        
+                        // 播放欢迎语音
+                        this.speakWelcomeMessage();
+                    }
+                },
+                
+                speakWelcomeMessage() {
+                    // 创建音频上下文播放欢迎语音
+                    const welcomeText = "你好，我是阿雅，有什么可以帮助你";
+                    const utterance = new SpeechSynthesisUtterance(welcomeText);
+                    utterance.lang = 'zh-CN';
+                    utterance.rate = 1;
+                    utterance.pitch = 1;
+                    speechSynthesis.speak(utterance);
                 },
                 
                 formatTime(timestamp) {
