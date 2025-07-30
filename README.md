@@ -23,7 +23,7 @@
 
 ## 框架说明
 
-![阿雅流程图](assets/images/flowchart.png)
+![阿雅流程图](assets/images/data_flow.svg)
 
 Robot 负责高效的任务管理与记忆管理，能够智能地处理用户的打断请求，同时实现各个模块之间的无缝协调与连接，以确保流畅的交互体验。
 
