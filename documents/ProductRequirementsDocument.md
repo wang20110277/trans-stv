@@ -130,5 +130,54 @@
 
 通过在以上方向的持续投入，阿雅语音对话助手将能从一个通用的语音助手，进化为一个安全、专业、智能、可靠的“虚拟柜员”，为银行提供降本增效、提升客户体验的创新解决方案。
 
+## 10. 参考项目分析
+
+在开发阿雅项目过程中，我们参考了以下优秀的开源项目：
+
+### VideoChat 项目
+git clone https://github.com/Henry-23/VideoChat 
+
+VideoChat 是一个实时语音交互数字人项目，支持端到端语音方案（GLM-4-Voice - THG）和级联方案（ASR-LLM-TTS-THG）。
+
+主要特点：
+1. **双模式支持**：同时支持端到端语音方案和级联方案
+2. **技术选型**：
+   - ASR：FunASR（与阿雅一致）
+   - LLM：Qwen
+   - TTS：GPT-SoVITS, CosyVoice, edge-tts
+   - THG：MuseTalk
+3. **性能表现**：首包延迟低至3s（级联方案）
+4. **个性化定制**：支持自定义形象与音色，支持音色克隆
+
+### Linly-Talker 项目
+git clone https://github.com/Kedreamix/Linly-Talker
+
+Linly-Talker 是一个数字人对话系统，集成了大语言模型和视觉模型。
+
+主要特点：
+1. **模块化设计**：支持多种 ASR、TTS、THG 和 LLM 的组合
+2. **技术选型**：
+   - ASR：Whisper、FunASR
+   - TTS：Edge TTS、PaddleTTS、GPT-SoVITS、CosyVoice
+   - THG：SadTalker、Wav2Lip、ER-NeRF、MuseTalk
+   - LLM：Linly、Qwen、Gemini-Pro、ChatGPT 等
+3. **特色功能**：
+   - 支持音色克隆
+   - 支持上传任意图片进行对话
+   - 支持实时交互
+4. **用户界面**：提供友好的 WebUI 界面
+
+### 与阿雅项目的对比和借鉴
+
+#### 相似之处：
+1. **核心技术栈相似**：都使用 FunASR 进行语音识别
+2. **模块化设计**：都采用模块化架构，便于替换和升级各功能模块
+
+#### 可借鉴的技术点：
+1. **集成更多 TTS 选项**：可以考虑集成 CosyVoice、GPT-SoVITS 等音色克隆技术
+2. **优化首包延迟**：参考 VideoChat 的性能优化方案
+3. **丰富 THG 选择**：增加对 MuseTalk、Wav2Lip 等数字人生成技术的支持
+4. **WebUI 界面**：开发类似 Linly-Talker 的 WebUI，提供图形化交互界面
+5. **实时交互能力**：借鉴这两个项目的实时交互实现
 ---
 **备注**：此演进方向是基于您提供的“阿雅”项目技术栈和目标进行的合理推演。实际应用于银行场景，需严格遵守金融行业的安全、合规和监管要求。

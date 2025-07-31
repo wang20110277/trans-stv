@@ -14,7 +14,7 @@ from src import (
     asr,
     llm,
     tts,
-    # thg,
+    thg,
     vad,
     memory,
     rag
@@ -69,10 +69,10 @@ class Robot(ABC):
             config["TTS"][config["selected_module"]["TTS"]]
         )
 
-        # self.thg = thg.create_instance(
-        #     config["selected_module"]["THG"],
-        #     config["THG"][config["selected_module"]["THG"]]
-        # )
+        self.thg = thg.create_instance(
+            config["selected_module"]["THG"],
+            config["THG"][config["selected_module"]["THG"]]
+        )
 
         self.player = player.create_instance(
             config["selected_module"]["Player"],
@@ -301,6 +301,16 @@ class Robot(ABC):
             logger.error(f"tts转换失败，{text}")
             return None
         logger.debug(f"TTS 文件生成完毕{self.chat_lock}")
+        # 调用THG生成数字人视频
+        try:
+            video_path = self.thg.to_thg(tts_file)
+            if video_path:
+                logger.info(f"THG数字人视频生成成功: {video_path}")
+            else:
+                logger.warning("THG数字人视频生成失败")
+        except Exception as e:
+            logger.error(f"THG处理出错: {e}")
+        
         #if self.chat_lock is False:
         #    return None
         # 开始播放
