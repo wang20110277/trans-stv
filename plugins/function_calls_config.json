@@ -150,5 +150,70 @@
                 ]
             }
         }
+    },
+    {
+        "type": "function",
+        "function": {
+            "name": "mcp_call",
+            "description": "调用MCP服务器执行命令，可以访问各种集成的工具和服务",
+            "parameters": {
+                "type": "object",
+                "properties": {
+                    "server_name": {
+                        "type": "string",
+                        "description": "MCP服务器名称，例如：12306-mcp"
+                    },
+                    "command": {
+                        "type": "string",
+                        "description": "要执行的命令"
+                    },
+                    "args": {
+                        "type": "array",
+                        "items": {
+                            "type": "string"
+                        },
+                        "description": "命令参数列表"
+                    }
+                },
+                "required": [
+                    "server_name"
+                ]
+            }
+        }
+    },
+    {
+        "type": "function",
+        "function": {
+            "name": "mcp_call_async",
+            "description": "异步调用MCP服务器执行命令，可以访问各种集成的工具和服务，不会阻塞对话流程",
+            "parameters": {
+                "type": "object",
+                "properties": {
+                    "server_name": {
+                        "type": "string",
+                        "description": "MCP服务器名称，例如：12306-mcp"
+                    },
+                    "command": {
+                        "type": "string",
+                        "description": "要执行的命令"
+                    },
+                    "args": {
+                        "type": "array",
+                        "items": {
+                            "type": "string"
+                        },
+                        "description": "命令参数列表"
+                    },
+                    "timeout": {
+                        "type": "integer",
+                        "description": "命令执行超时时间(秒)，默认30秒",
+                        "default": 30
+                    }
+                },
+                "required": [
+                    "server_name"
+                ]
+            }
+        }
     }
 ]
