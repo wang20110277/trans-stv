@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
-    <title>阿雅语音对话助手</title>
+    <title>理财助手-阿雅</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <style>
         :root {
@@ -319,7 +319,7 @@
     <div id="app">
         <header>
             <!-- h1标题通过CSS绝对定位在header左侧 -->
-            <h1>阿雅语音对话助手</h1>
+            <h1>理财助手-阿雅</h1>
         </header>
         <div class="container">
             <!-- 左侧数字人画面 -->
@@ -334,7 +334,7 @@
             <div class="chat-container">
                 <div class="dialogue-container" ref="dialogueContainer">
                     <div v-if="dialogue.length === 0" class="loading">
-                        <i class="fas fa-spinner fa-spin"></i> 我是阿雅，有什么可以帮助您？
+                        <i class="fas fa-spinner fa-spin"></i> 你好，我是阿雅，您的的专属理财助手，有什么可以帮助您？
                     </div>
                     <div v-for="(message, index) in dialogue" 
                          :key="index" 
@@ -534,7 +534,7 @@
                 
                 speakWelcomeMessage() {
                     // 创建音频上下文播放欢迎语音
-                    const welcomeText = "你好，我是阿雅，有什么可以帮助你";
+                    const welcomeText = "你好，我是阿雅，您的的专属理财顾问，有什么可以帮助您？";
                     const utterance = new SpeechSynthesisUtterance(welcomeText);
                     utterance.lang = 'zh-CN';
                     utterance.rate = 1;
