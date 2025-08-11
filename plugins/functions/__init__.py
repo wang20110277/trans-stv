@@ -1,4 +1,4 @@
-from .mcp_call import mcp_call
+from plugins.mcp_call import mcp_call
 
 __all__ = [
     'aigc_manus',
