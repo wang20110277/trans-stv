@@ -1,4 +1,3 @@
-import threading
 import time
 import os
 from gtts import gTTS
@@ -154,6 +153,13 @@ async def websocket_endpoint(websocket: WebSocket, user_id: str = Query(...)):
                 elif message_type == "ping":
                     # 心跳检测
                     await websocket.send_json({"type": "pong"})
+                
+                elif message_type in ["offer", "answer", "ice-candidate"]:
+                    # 处理WebRTC信令消息
+                    # 添加发送者信息
+                    message_data["sender"] = user_id
+                    # 转发给所有其他连接的用户
+                    await broadcast_signaling_message(message_data, user_id)
                     
                 else:
                     logger.warning(f"未知消息类型: {message_type}")
@@ -182,6 +188,29 @@ async def broadcast_message(message: dict):
             disconnected_users.append(user_id)
         except Exception as e:
             logger.error(f"向用户 {user_id} 发送消息时出错: {e}")
+            disconnected_users.append(user_id)
+    
+    # 清理断开的连接
+    for user_id in disconnected_users:
+        if user_id in active_connections:
+            del active_connections[user_id]
+        if user_id in user_last_active:
+            del user_last_active[user_id]
+
+async def broadcast_signaling_message(message: dict, sender_id: str):
+    """广播WebRTC信令消息给除发送者外的所有活跃连接"""
+    disconnected_users = []
+    for user_id, websocket in active_connections.items():
+        # 不发送给消息发送者
+        if user_id == sender_id:
+            continue
+            
+        try:
+            await websocket.send_json(message)
+        except WebSocketDisconnect:
+            disconnected_users.append(user_id)
+        except Exception as e:
+            logger.error(f"向用户 {user_id} 发送信令消息时出错: {e}")
             disconnected_users.append(user_id)
     
     # 清理断开的连接
