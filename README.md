@@ -96,8 +96,8 @@ third_party - Agent实现
 3. 配置环境变量：
 
      - 打开config/config.yaml 配置ASR LLM等相关配置
-     - 下载SenseVoiceSmall到目录models/SenseVoiceSmall [SenseVoiceSmall下载地址](https://huggingface.co/FunAudioLLM/SenseVoiceSmall/tree/main)
-     - 下载bge-small-zh到目录models/bge-small-zh [bge-small-zh下载地址]
+     - 下载SenseVoiceSmall到目录models/SenseVoiceSmall [SenseVoiceSmall下载地址](https://hf-mirror.com/FunAudioLLM/SenseVoiceSmall/tree/main)
+     - 下载bge-small-zh到目录models/bge-small-zh [bge-small-zh下载地址](https://modelscope.cn/models/BAAI/bge-small-zh/summary)
      - 去deepseek官网，获取配置api_key，[deepseek获取api_key](https://platform.deepseek.com/api_keys)，当然也可以配置openai、qwen、gemini、01yi等其他模型
 
 4. 运行项目：
